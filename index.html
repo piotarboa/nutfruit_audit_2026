@@ -15,6 +15,7 @@
       --primary: #0f4c4c;
       --primary-light: #3a8d8d;
       --accent: #c9a227;
+      --accent-white: #ffffffb3;
       --accent-soft: #e8d48b;
       --text: #1e2a2a;
       --text-muted: #5a6a6a;
@@ -362,12 +363,12 @@
 
     .cover .subtitle {
       color: rgba(255,255,255,0.85);
-      font-size: 1.15rem;
+      font-size: 1.1rem;
     }
 
     .cover .meta {
       margin-top: 36px;
-      font-size: 0.9rem;
+      font-size: 1.2rem;
       color: rgba(255,255,255,0.7);
     }
 
@@ -379,7 +380,7 @@
     }
 
     .logo-cover {
-      width: 148px;
+      width: 246px;
       height: auto;
       background: #fff;
       border-radius: 16px;
@@ -391,7 +392,7 @@
       position: fixed;
       top: 16px;
       right: 24px;
-      width: 52px;
+      width: 64px;
       height: auto;
       z-index: 90;
       background: #fff;
@@ -502,17 +503,15 @@
         <div class="label" style="color:var(--accent);">Decision Pack · Agosto 2026</div>
         <h1>Nutfruit Italia</h1>
         <div class="accent-line"></div>
-        <p class="subtitle" style="max-width:620px;margin:0 auto;">
-          AI Opportunity Audit<br>
-          Quadro della situazione attuale ed opportunità
-          <br> 
-          derivanti dall'adozione dell’Intelligenza Artificiale
+        <p  style="max-width:860px;margin:0 auto;">
+          <p style="color:var(--accent-white); font-size:1.8rem;font-weight:700;">AI Opportunity Audit</p>
+          <p style="color:var(--accent-white); font-size:1.3rem;font-weight:700;">Quadro della situazione attuale ed opportunità derivanti dall'adozione dell’Intelligenza Artificiale</p>
         </p>
         <div class="meta">
           Documento riservato per Soci e Investitori
           <br>
           <br>
-          Preparato da Fabio B. Forgione · CTO - AI & Digital Architect
+          Preparato da Fabio B. Forgione (Piotar Boa)
         </div>
       </div>
     </section>
@@ -522,7 +521,7 @@
       <div class="slide-inner">
         <div class="label">Indice</div>
         <h1>Struttura del documento</h1>
-        <p class="subtitle">Prime 15 slide = sintesi esecutiva · Slide 16 – 61 = analisi analitica e chiusura</p>
+        <p class="subtitle">Prime 15 slide = sintesi esecutiva · Slide 16 –  50= analisi analitica e chiusura</p>
         
         <div class="card-grid cols-2" style="margin-top:12px;">
           <div class="card">
@@ -531,16 +530,27 @@
               <li>Profilo azienda e obiettivi</li>
               <li>Readiness digitale e AI</li>
               <li>Processi critici e benefici stimati</li>
-              <li>Priorità operative e 4 Pilastri (Magazzino Intelligente, CTO, CMO, AI)</li>
+              <li>Priorità operative e 3 Pilastri: <br>
+                - Magazzino Intelligente, 
+                <br>
+                 - AI adoption + CTO (Chief Technology Officer)
+                 <br>
+                 - Marketing aziendale + CMO (Chief Marketing Officer)</li>
               <li>Investimenti vs vantaggi high-level</li>
               <li>Raccomandazione e next steps</li>
             </ul>
           </div>
           <div class="card">
-            <h3>Parte 2 — Analisi analitica (Slide 16 – 61)</h3>
+            <h3>Parte 2 — Analisi analitica (Slide 16 – 50)</h3>
             <ul class="clean">
               <li>Dettaglio dei processi mappati</li>
-              <li>Approfondimento 4 Pilastri (Magazzino Intelligente, CTO, CMO, AI Adoption)</li>
+              <li>Approfondimento 3 Pilastri: 
+               <br>
+               - Magazzino Intelligente, 
+               <br>
+                - AI adoption + CTO (Chief Technology Officer)
+                <br>
+                - Marketing aziendale + CMO (Chief Marketing Officer)</li>
               <li>Rischi, compliance e AI Act</li>
               <li>Roadmap 30/60/90 e governance</li>
               <li>Tabelle finanziarie complete</li>
@@ -623,35 +633,29 @@
         <h1>Il punto di partenza...</h1>
         <p class="subtitle">L’azienda mostra interesse verso l’AI, ma i processi sono ancora fortemente manuali, poco digitalizzati e frammentati.</p>
 
-        <div class="hl-box">
-          <p><strong>Punto più critico:</strong> il magazzino. Assenza di tracciabilità in tempo reale, movimenti registrati a mano e poi riversati su Excel e Fluentis. Questo genera errori di disponibilità, perdite di tempo continue e difficoltà nella pianificazione della produzione.</p>
+        <div class="card-grid cols-1" style="margin-top:8px;">
+          <div class="card">
+            <h3>1° Pilastro: Magazzino intelligente</h3>
+            <p>Organizzazione, digitalizzazione, tracciabilità posizione quantità e movimenti, monitoraggio temperature, umidità, CO2, presenza di insetti, ecc.</p>
+          </div>
+          
+          <div class="card">
+          <h3>2° Pilastro: AI adoption + Chief Technology Officer (CTO)</h3>
+            <p>Governance IT, roadmap per la digitalizzazione, AI Adoption, AI Company Brain, AI Agents</p>
+          </div>
+          <div class="card">
+            <h3>3° Pilastro: Marketing Aziendale + Chief Marketing Officer (CMO)</h3>
+            <p>Marketing aziendale e digital marketing, social media, luxury almonds, online marketing, e-commerce</p>
+          </div>
         </div>
-
-        <div class="card-grid cols-2" style="margin-top:8px;">
-          <div class="card">
-            <h3>Priorità 1: Magazzino intelligente</h3>
-            <p>Organizzazione, tracciabilità posizione quantità e movimenti</p>
-          </div>
-          <div class="card">
-            <h3>Priorità 2: Automazione attività su ERP Fluentis</h3>
-            <p>Inserimento fatture, DDT, preventivi e ordini di produzione</p>
-          </div>
-          <div class="card">
-            <h3>Priorità 3: Assistenti virtuali AI</h3>
-            <p>Triage email, assistenza clienti e ricerca documentale</p>
-          </div>
-          <div class="card">
-          <h3>Priorità 4: Chief Technology Officer (CTO)</h3>
-            <p>Governance IT, roadmap per la digitalizzazione e l'AI Adoption</p>
-          </div>
-          <div class="card">
-            <h3>Priorità 5: Chief Marketing Officer (CMO)</h3>
-            <p>Marketing aziendale e digital marketing</p>
-          </div>
-          <div class="card">
-            <h3>Priorità 6: AI Company Brain</h3>
-            <p>Per gestire la cultura aziendale e la condivisione di conoscenza</p>
-          </div>
+        <div class="hl-box">
+          <p><strong>Punto più critico:</strong> il magazzino. 
+            <br> 
+            Assenza di tracciabilità in tempo reale, 
+            <br>
+            Movimenti registrati a mano e poi riversati su Excel e Fluentis.
+            <br>
+            Questo genera errori di disponibilità, perdite di tempo continue, difficoltà nella pianificazione della produzione e mancanza di controllo.</p>
         </div>
       </div>
     </section>
@@ -702,18 +706,18 @@
     <section class="slide" data-slide="6">
       <div class="slide-inner">
         <div class="label">Impatto economico</div>
-        <h1>Totale Vantaggi Stimati dai processi mappati</h1>
+        <h1>Totale Vantaggi Stimati dai 3 Pilastri</h1>
         <div class="kpi-row">
           <div class="card metric">
-            <div class="value pos">€ 630.378</div>
+            <div class="value pos">€ 391.608</div>
             <div class="label">Min (banda −30%)</div>
           </div>
           <div class="card metric">
-            <div class="value" style="color:var(--primary);">€ 900.540</div>
+            <div class="value" style="color:var(--primary);">€ 559.440</div>
             <div class="label">Base (stima modello)</div>
           </div>
           <div class="card metric">
-            <div class="value pos">€ 1.170.702</div>
+            <div class="value pos">€ 727.272</div>
             <div class="label">Max (banda +30%)</div>
           </div>
         </div>
@@ -729,8 +733,8 @@
     <section class="slide" data-slide="7">
       <div class="slide-inner">
         <div class="label">Processi mappati</div>
-        <h1>Grazie alla digitalizzazione e all'AI Adoption possiamo essere più efficienti, evitare perdite e sanzioni, ridurre i rischi e risparmiare denaro.</h1>
-        <h2>Sono stati mappati 9 processi...</h2>
+        <h2>La digitalizzazione insieme all'AI Adoption permettono a Nutfruit Italia di essere più efficiente, evitare perdite e sanzioni, ridurre i rischi e risparmiare risorse</h1>
+        <h3>Grazie alle interviste ed ai dati è stato possibile mappare 9 processi economici e vedere quali sono i processi più critici per l'azienda</h3>
         
         <div class="table-wrap">
           <table>
@@ -747,7 +751,7 @@
             </thead>
             <tbody>
               <tr>
-                <td>Digitalizzazione MAGAZZINO</td>
+                <td>Magazzino Intelligente</td>
                 <td class="num">690</td>
                 <td class="num pos">€ 30,00</td>
                 <td class="num pos">€ 20.700</td>
@@ -760,8 +764,8 @@
                 <td class="num">460</td>  
                 <td class="num pos">€ 30,00</td>
                 <td class="num pos">€ 13.800</td>
-                <td class="num pos">€ 100.000</td>
-                <td class="num pos">€ 113.800</td>
+                <td class="num pos">€ 10.000(*)</td>
+                <td class="num pos">€ 13.800</td>
                 <td><span class="badge badge-urgente">5</span></td>
               </tr>
               <tr>
@@ -769,8 +773,8 @@
                 <td class="num">1380</td>
                 <td class="num pos">€ 30,00</td>
                 <td class="num pos">€ 41.400</td> 
-                <td class="num pos">€ 100.000</td>
-                <td class="num pos">€ 141.400</td>
+                <td class="num pos">€ 40.000(*)</td>
+                <td class="num pos">€ 41.400</td>
                 <td><span class="badge badge-urgente">5</span></td>
               </tr>
               <tr>
@@ -778,8 +782,8 @@
                 <td class="num">506</td>  
                 <td class="num pos">€ 30,00</td>
                 <td class="num pos">€ 15.180</td> 
-                <td class="num pos">€ 50.000</td>
-                <td class="num pos">€ 65.180</td>
+                <td class="num pos">€ 25.000(*)</td>
+                <td class="num pos">€ 15.180</td>
                 <td><span class="badge badge-urgente">5</span></td>
               </tr>
               <tr>
@@ -787,8 +791,8 @@
                 <td class="num">368</td>  
                 <td class="num pos">€ 30,00</td>
                 <td class="num pos">€ 11.040</td>
-                <td class="num pos">€ 40.000</td>
-                <td class="num pos">€ 51.040</td>
+                <td class="num pos">€ 25.000(*)</td>
+                <td class="num pos">€ 11.040</td>
                 <td><span class="badge badge-urgente">5</span></td>
               </tr>
               
@@ -797,8 +801,8 @@
                 <td class="num">230</td>  
                 <td class="num pos">€ 30,00</td>
                 <td class="num pos">€ 6.900</td> 
-                <td class="num pos">€ 100.000 </td>
-                <td class="num pos">€ 106.900</td>
+                <td class="num pos">€ 20.000 </td>
+                <td class="num pos">€ 26.900</td>
                 <td><span class="badge badge-urgente">5</span></td>
               </tr>
               <tr>
@@ -806,8 +810,8 @@
                 <td class="num">184</td>  
                 <td class="num pos">€ 30,00</td>
                 <td class="num pos">€ 5.520</td> 
-                <td class="num pos">€ 50.000</td>
-                <td class="num pos">€ 55.520</td>
+                <td class="num pos">€ 20.000</td>
+                <td class="num pos">€ 25.520</td>
                 <td><span class="badge badge-urgente">5</span></td>
               </tr>
               <tr>
@@ -815,82 +819,86 @@
                 <td class="num">460</td>
                 <td class="num pos">€ 30,00</td>
                 <td class="num pos">€ 13.800</td>  
-                <td class="num pos">€ 100.000</td>
-                <td class="num pos">€ 113.800</td>
+                <td class="num pos">€ 30.000</td>
+                <td class="num pos">€ 43.800</td>
                 <td><span class="badge badge-urgente">5</span></td>
               </tr>
               <tr>
                 <td>Triage Email Amministratore</td>
                 <td class="num">322</td>  
-                <td class="num pos">€ 100,00</td>
-                <td class="num pos">€ 32.200</td>  
-                <td class="num pos">€ 100.000 </td>
-                <td class="num pos">€ 132.200</td>
+                <td class="num pos">€ 50,00</td>
+                <td class="num pos">€ 16.100</td>  
+                <td class="num pos">€ 30.000 </td>
+                <td class="num pos">€ 46.100</td>
                 <td><span class="badge badge-urgente">5</span></td>
               </tr>
               <tr>
-                  <td class="text-muted" style="font-size:1.25rem;">TOTALE</td>
-                  <td class="num" style="font-size:1.25rem;">4.600</td>  
-                  <td class="num pos" style="font-size:1.25rem;">-</td>
-                  <td class="num pos" style="font-size:1.25rem;">€ 160.540</td>  
-                  <td class="num pos" style="font-size:1.25rem;">€ 740.000</td>
-                  <td class="num pos" style="font-size:1.25rem;">€ 900.540</td>
+                  <td class="text-muted" style="font-size:1.15rem;">TOTALE(**)</td>
+                  <td class="num" style="font-size:1.1rem;"</td><strong>4.600</strong></td>  
+                  <td class="num pos" style="font-size:1.1rem;"><strong>-</strong></td>
+                  <td class="num pos" style="font-size:1.1rem;"><strong>€ 144.440</strong></td>  
+                  <td class="num pos" style="font-size:1.1rem;"><strong>€ 200.000</strong></td>
+                  <td class="num pos" style="font-size:1.1rem;"><strong>€ 344.440</strong></td>
                   <td></td>
               </tr>
             </tbody>
           </table>
           
         </div>
-        <h4>Per ogni processo è indicato il totale annuo delle ore recuperabili e il valore €/ora medio di un'ora di lavoro recuperata.</h4>
-        <h4>Il beneficio €/anno è il risparmio annuo stimato per il processo (ore recuperate × valore €/ora).</h4>
-        <h4>Il rischio/perdita evitata è il rischio, la perdita, la sanzione o l'opportunità persa evitata per il processo.</h4>
-        <h4>Il totale è la somma del beneficio €/anno e del rischio/perdita evitata (il valore €/ora non si somma).</h4>
-        <h4>Il pain point è il grado di urgenza del processo.</h4>
+        <p>Per ogni processo è indicato il totale annuo delle ore recuperabili e il valore €/ora medio di un'ora di lavoro recuperata.
+        <br>
+        Il beneficio €/anno è il risparmio annuo stimato per il processo (ore recuperate × valore €/ora).
+        <br>
+        Il rischio/perdita evitata è il rischio, la perdita, la sanzione evitabile o l'opportunità persa  dall'esecuzione del processo.
+        <br>
+        Il totale è la somma del beneficio €/anno e del rischio/perdita evitata (il valore €/ora non si somma).
+        <br>
+        Il pain point è il grado di urgenza del processo.</p>
+        <br>
+        *Le perdite ed i rischi sono già inclusi nella sezione del "Magazzino Intelligente".
+        <br>
+        **Il totale dei vantaggi è già incluso nella sezione dei "3 Pilastri".
+        
       </div>
     </section>
 
-    <!-- ==================== SLIDE 8: 4 Pilastri ==================== -->
+    <!-- ==================== SLIDE 8: 3 Pilastri ==================== -->
     <section class="slide" data-slide="8">
       <div class="slide-inner">
         <div class="label">Raccomandazioni CTO</div>
-        <h1> Partiamo da 4 Pilastri prioritari...</h1>
-        
+        <h1> Partiamo dai 3 Pilastri prioritari...</h1>
+       
         <div class="card-grid cols-1">
           <div class="card">
             <div class="flex-between">
               <h3>1. Magazzino Intelligente</h3>
               <span class="badge badge-urgente">Urgente</span>
             </div>
+           
             <p class="text-muted" style="font-size:0.85rem;">Responsabile magazzino, WMS (warehouse management system) + palmari.</p>
-            <p class="text-muted" style="font-size:1.0rem;"><strong style="color:var(--primary);">Benefici stimati: € 120.700 (Primo anno) – € 220.700 (Secondo anno).</strong></p>
+            <p class="text-muted" style="font-size:1.0rem;"><strong style="color:var(--primary);">Benefici stimati: € 134.500 (Primo anno) – € 184.500 (Secondo anno).</strong></p>
           </div>
+
           <div class="card">
             <div class="flex-between">
-              <h3>2. Fractional CTO (Chief Technology Officer)</h3>
+              <h3>2. AI Adoption + Fractional CTO (Chief Technology Officer)</h3>
               <span class="badge badge-urgente">Urgente</span>
             </div>
-            <p class="text-muted" style="font-size:0.85rem;">Governance IT, riduzione rischi, AI Adoption, roadmap digitale 12–24 mesi.</p>
-            <p class="text-muted" style="font-size:1.0rem;"><strong style="color:var(--primary);">Benefici stimati: € 270.000 (Primo anno) – € 410.000 (Secondo anno).</strong></p>
+            <p class="text-muted" style="font-size:0.85rem;">Governance IT, riduzione rischi, AI Adoption, AI Agents, roadmap digitale 12–24 mesi.</p>
+            <p class="text-muted" style="font-size:1.0rem;"><strong style="color:var(--primary);">Benefici stimati: € 304.940 (Primo anno) – € 334.940 (Secondo anno).</strong></p>
           </div>
           <div class="card">
             <div class="flex-between">
-              <h3>3. Fractional CMO (Chief Marketing Officer)</h3>
+              <h3>3. Marketing aziendale + Fractional CMO (Chief Marketing Officer)</h3>
               <span class="badge badge-alta">Alta</span>
             </div>
-            <p class="text-muted" style="font-size:0.85rem;">Marketing aziendale, sito, e-commerce, marketing online, social media.</p>
-            <p class="text-muted" style="font-size:1.0rem;"><strong style="color:var(--primary);">Benefici stimati: € 150.000 (Primo anno) – € 230.000 (Secondo anno).</strong></p>
+            <p class="text-muted" style="font-size:0.85rem;">Marketing aziendale, nuovo sito web, e-commerce, marketing online, social media.</p>
+            <p class="text-muted" style="font-size:1.0rem;"><strong style="color:var(--primary);">Benefici stimati: € 120.000 (Primo anno) – € 150.000 (Secondo anno).</strong></p>
           </div>
-          <div class="card">
-            <div class="flex-between">
-              <h3>4. AI Adoption (agenti)</h3>
-              <span class="badge badge-urgente">Urgente</span>
-            </div>
-            <p class="text-muted" style="font-size:0.85rem;">Piano graduale 12 – 24 mesi. Agenti AI per automatizzare processi ripetitivi e manuali.</p>
-            <p class="text-muted" style="font-size:1.0rem;"><strong style="color:var(--primary);">Benefici stimati: € 666.040 (Primo anno) – € 666.040 (Secondo anno).</strong></p>
-          </div>
+          
         </div>
         <div class="alert-box mt-12">
-          <strong>Non si parte dagli agenti AI.</strong> Si parte dalle basi digitali (magazzino, governance, marketing). Solo dopo si moltiplica l’efficienza con l’AI. I vantaggi dei 4 Pilastri non vanno sommati ai € 900.540 dei processi: l’AI Adoption riprende i processi non coperti dal magazzino.
+          <strong>Non si parte dagli agenti AI.</strong> Si parte dal magazzino intelligente, governance IT, marketing aziendale. Solo dopo si moltiplica l’efficienza con l’AI.
         </div>
       </div>
     </section>
@@ -926,20 +934,30 @@
             </thead>
             <tbody>
               <tr>
-                <td style="font-size:1.1rem;"><strong>Totale investimenti / costi</strong></td>
-                <td class="num" style="font-size:1.1rem;">€  338.100</td>
-                <td class="num" style="font-size:1.1rem;">€  257.400</td>
+                <td style="font-size:1.1rem;"><strong>Totale vantaggi (incl. rischi evitati)</strong></td>
+                <td class="num pos" style="font-size:1.1rem;">€ 559.440</td>
+                <td class="num pos" style="font-size:1.1rem;">€ 669.440</td>
+              </tr>
+              <tr> 
+                <td style="font-size:1.1rem;"><strong></strong></td>
+                <td class="num pos" style="font-size:1.1rem;"></td>
+                <td class="num pos" style="font-size:1.1rem;"></td>
               </tr>
               <tr>
-                <td style="font-size:1.1rem;"><strong>Totale vantaggi (incl. rischi evitati)</strong></td>
-                <td class="num pos" style="font-size:1.1rem;">€ 1.206.740</td>
-                <td class="num pos" style="font-size:1.1rem;">€ 1.526.740</td>
+                <td style="font-size:1.1rem;"><strong>Totale investimenti / costi</strong></td>
+                <td class="num" style="font-size:1.1rem;">€  308.100</td>
+                <td class="num" style="font-size:1.1rem;">€  245.400</td>
               </tr>
-
+              <tr> 
+                <td style="font-size:1.1rem;"><strong></strong></td>
+                <td class="num pos" style="font-size:1.1rem;"></td>
+                <td class="num pos" style="font-size:1.1rem;"></td>
+              </tr>
+          
               <tr>
                 <td style="font-size:1.3rem;"><strong>Totale benefici al netto degli investimenti</strong></td>
-                <td class="num pos" style="font-size:1.3rem;">€ 868.640</td>
-                <td class="num pos" style="font-size:1.3rem;">€ 1.269.340</td>
+                <td class="num pos" style="font-size:1.3rem;">€ 251.340</td>
+                <td class="num pos" style="font-size:1.3rem;">€ 424.040</td>
               </tr>
               
             </tbody>
@@ -953,7 +971,8 @@
           </div>
           <div class="alert-box">
             <h3>Attenzione</h3>
-            <p>I vantaggi dei 4 Pilastri (magazzino, CTO, CMO, AI) si sovrappongono parzialmente ai risparmi dei 7 Casi Studio" e tra loro. Non sommare i due livelli. Va fatta una validazione contabile prima di qualsiasi decisione di investimento.</p>
+            <p>I vantaggi dei 3 Pilastri sono stimati su base prudenziale.<br>
+              Fare una  validazione contabile prima di qualsiasi investimento</p>
           </div>
         </div>
       </div>
@@ -1111,6 +1130,7 @@
               <li>Nuova linea di produzione automatica in arrivo</li>
               <li>Domanda in aumento, nuove fette di mercato</li>
               <li>Essere tra i primi nel settore</li>
+              <li>Monitorare news ed andamento prezzi sul mercato</li>
               <li>Volontà esplicita di introdurre AI in tutti i processi</li>
             </ul>
           </div>
@@ -1122,7 +1142,9 @@
               <li>Dipendenza da passaparola e pochi clienti</li>
               <li>Perdite ore lavorative in processi ripetitivi</li>
               <li>Obiettivi Bando non rispettati</li>
+              <li>Perdita quote di mercato</li>
               <li>Concorrenza più veloce ed efficiente</li>
+              <li>Rischi di acquisti mandorle a prezzi più alti</li>
             </ul>
           </div>
         </div>
@@ -1139,8 +1161,15 @@
         <div class="label" style="color:var(--accent);">Parte analitica</div>
         <h1>Analisi dettagliata</h1>
         <div class="accent-line"></div>
-        <p class="subtitle" style="max-width:560px;">
-          Nelle prossime slide approfondiamo ogni processo,  "Pilastro" ( CTO, CMO, AI Adoption),  "casi studio"  con numeri, architettura, rischi e ROI.
+        <p style="color:var(--accent-white); font-size:1.1rem;font-weight:700; max-width:860px;">
+          Nelle prossime slide approfondiamo ogni processo mappato con i 3 "Pilastri": <br>
+           Magazzino Intelligente
+          <br>
+           AI Adoption + CTO
+          <br>
+           Marketing Aziendale + CMO
+          <br>
+           con i  "casi studio",  numeri, architettura, rischi e ROI.
         </p>
       </div>
     </section>
@@ -1188,16 +1217,16 @@
             <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">Excel, Email, WhatsApp, Fluentis</p>
             <h3>Periodo di analisi</h3>
             <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">46 Settimane</p>
-            <h3>Rischio / perdita dichiarata</h3>
-            <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">€ 50.000 (da mancata acquisizione nuovi clienti)</p>
+            <h3>Rischio / perdita/ opportunità persa</h3>
+            <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">€ 20.000 (da mancata acquisizione nuovi clienti)</p>
           </div>
 
         </div>
         <div class="kpi-row">
           <div class="card metric"><div class="value">184</div><div class="label-sm"> Ore Recuperate</div></div>
           <div class="card metric"><div class="value pos">€ 5.520</div><div class="label-sm">Valore Ore Recuperate</div></div>
-          <div class="card metric"><div class="value pos">€ 50.000</div><div class="label-sm">Rischio/perdita evitata/ anno</div></div>
-          <div class="card metric"><div class="value pos">€ 55.520</div><div class="label-sm">Beneficio totale / anno</div></div>
+          <div class="card metric"><div class="value pos">€ 20.000</div><div class="label-sm">Rischio/perdita evitata/ anno</div></div>
+          <div class="card metric"><div class="value pos">€ 25.520</div><div class="label-sm">Beneficio totale / anno</div></div>
         </div>
       </div>
     </section>
@@ -1230,16 +1259,16 @@
             <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">Excel, Email, WhatsApp, Fluentis</p>
             <h3>Periodo di analisi</h3>
             <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">46 Settimane</p>
-            <h3>Rischio / perdita dichiarata</h3>
-            <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">€ 100.000 (da ordini clienti non evasi o persi)</p>
+            <h3>Rischio / perdita/ opportunità persa </h3>
+            <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">€ 30.000 (da ordini clienti non evasi o persi)</p>
           </div>
 
         </div>
         <div class="kpi-row">
           <div class="card metric"><div class="value">460</div><div class="label-sm"> Ore Recuperate</div></div>
           <div class="card metric"><div class="value pos">€ 13.800</div><div class="label-sm">Valore Ore Recuperate</div></div>
-          <div class="card metric"><div class="value pos">€ 100.000</div><div class="label-sm">Rischio/perdita evitata/ anno</div></div>
-          <div class="card metric"><div class="value pos">€ 113.800</div><div class="label-sm">Beneficio totale / anno</div></div>
+          <div class="card metric"><div class="value pos">€ 30.000</div><div class="label-sm">Rischio/perdita evitata/ anno</div></div>
+          <div class="card metric"><div class="value pos">€ 43.800</div><div class="label-sm">Beneficio totale / anno</div></div>
         </div>
         
         <div class="row" style="margin-top:10px;">
@@ -1276,14 +1305,17 @@
           <h3>Descrizione Pain Point</h3>
           <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">Il tecnico di produzione entra più volte al giorno in magazzino per verificare se la merce esiste, le quantità disponibili, la posizione e tiene traccia delle quantità in entrata ed uscita. Solo dopo può elaborare il Piano di Produzione Settimanale. Una gestione manuale, disorganizzata del magazzino può causare gravi perdite economiche.</p>
           <h3>Rischio/perdita potenziale</h3>
-          <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">€ 100.000 (deperimento merci, furti, errori di approvvigionamento, ritardi di produzione)</p>
+          <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">€ 10.000 (errori di calcolo, ritardi di produzione)
+            <br>
+            (*) Importo già conteggiato nel totale Magazzino Intelligente
+          </p>
         </div>
        
       <div class="kpi-row">
         <div class="card metric"><div class="value">460</div><div class="label-sm"> Ore Recuperate</div></div>
         <div class="card metric"><div class="value pos">€ 13.800</div><div class="label-sm">Valore Ore Recuperate</div></div>
-        <div class="card metric"><div class="value pos">€ 100.000</div><div class="label-sm">Rischio/perdita evitata/ anno</div></div>
-        <div class="card metric"><div class="value pos">€ 113.800</div><div class="label-sm">Beneficio totale / anno</div></div>
+        <div class="card metric"><div class="value pos">€ 10.000 (*)</div><div class="label-sm">Rischio/perdita evitata/ anno</div></div>
+        <div class="card metric"><div class="value pos">€ 13.800</div><div class="label-sm">Beneficio totale / anno</div></div>
       </div>
       </div>
     </section>
@@ -1296,15 +1328,15 @@
         
         <div class="kpi-row">
           <div class="card metric"><div class="value">4</div><div class="label-sm">Ore / settimana</div></div>
-          <div class="card metric"><div class="value">2</div><div class="label-sm">Persone coinvolte</div></div>
-          <div class="card metric"><div class="value pos">€ 51.040</div><div class="label-sm">Beneficio totale / anno</div></div>
+          <div class="card metric"><div class="value pos">€ 11.040</div><div class="label-sm">Beneficio totale / anno</div></div>
+          <div class="card metric"><div class="value pos">€ 25.000 (*)</div><div class="label-sm">Rischio/Perdita </div></div>
           <div class="card metric"><div class="value">46%</div><div class="label-sm">Indice di automatizzazione</div></div>
         </div>
 
         <div class="" style="margin-top:8px;">
           <div class="card">
             <h3>Descrizione</h3>
-            <p>La responsabile vendite e il tecnico di produzione si confrontano, <strong>fuori orario lavorativo</strong>, durante il week-end, per elaborare il piano. Su 46 settimane: 4 ore × 2 persone = 368 ore × € 30 = € 11.040, più € 40.000 di rischio evitato (€ 51.040 totali).</p>
+            <p>La responsabile vendite e il tecnico di produzione si confrontano, <strong>fuori orario lavorativo</strong>, durante il week-end, per elaborare il piano.</p>
             <p>Le comunicazioni avvengono privatamente sui loro WhatsApp personali.</p>
             <p>Il documento finale viene poi condiviso su un gruppo WhatsApp e su Dropbox.</p>
             <p>Nel gruppo WhatsApp ci sono: l'AU, la responsabile vendite, il tecnico di produzione e tutti i dipendenti.</p>
@@ -1312,6 +1344,9 @@
           <div class="card" style="margin-top:10px;">
             <h3>Potenziali rischi</h3>
             <ul class="clean">
+              <li>Errori di calcolo, ritardi produzione € 25.000
+               (*) Importo già conteggiato nel totale Magazzino Intelligente
+              </li>
               <li>Violazione GDPR: uso di numeri personali senza consenso, condivisione di dati aziendali su un canale non controllato, possibile data breach.</li>
               <li>Perdita di controllo su segreti commerciali e informazioni riservate.</li>
               <li>Responsabilità dell’amministratore unico verso i soci per omessa diligenza e mancata governance.</li>
@@ -1351,13 +1386,16 @@
         </div>
 
         <div class="alert-box mt-12">
-          <strong>Opportunità:</strong> valutare se automatizzare la creazione delle distinte base direttamente su Fluentis oppure creare un AI Agent Assistant dedicato. Il tecnico impiega diverse ore settimanali solo per questo task.
+          <strong>Opportunità:</strong> valutare se automatizzare la creazione delle distinte base direttamente su Fluentis oppure creare un AI Agent Assistant dedicato. Il tecnico di produzione impiega diverse ore settimanali solo per questo task.
+          <br>
+          <br>
+           (*) Importo già conteggiato nel totale Magazzino Intelligente
         </div>
       <div class="kpi-row">
         <div class="card metric"><div class="value">506</div><div class="label-sm"> Ore Recuperate</div></div>
         <div class="card metric"><div class="value pos">€ 15.180</div><div class="label-sm">Valore Ore Recuperate</div></div>
-        <div class="card metric"><div class="value pos">€ 50.000</div><div class="label-sm">Rischio/perdita evitata/ anno</div></div>
-        <div class="card metric"><div class="value pos">€ 65.180</div><div class="label-sm">Beneficio totale / anno</div></div>
+        <div class="card metric"><div class="value pos">€ 25.000 (*) </div><div class="label-sm">Rischio/perdita evitata/ anno</div></div>
+        <div class="card metric"><div class="value pos">€ 15.180</div><div class="label-sm">Beneficio totale / anno</div></div>
       </div>
       </div>
     </section>
@@ -1370,7 +1408,7 @@
         
         <div class="kpi-row">
           <div class="card metric"><div class="value">7</div><div class="label-sm">Ore / settimana</div></div>
-          <div class="card metric"><div class="value">€ 100</div><div class="label-sm"> Valore orario (AU)</div></div>
+          <div class="card metric"><div class="value">€ 50</div><div class="label-sm"> Valore orario (AU)</div></div>
           <div class="card metric"><div class="value">70%</div><div class="label-sm">Indice di automatizzazione</div></div>
         </div>
 
@@ -1381,7 +1419,7 @@
             <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">L’amministratore unico non ha abbastanza tempo per leggere, selezionare, dare priorità e rispondere alle centinaia di email. Molte restano non aperte. Inoltre ha un vecchio laptop che presenta problemi di detection malware e necessita di aggiornamento.</p>
 
             <h3>Rischio / perdita dichiarata</h3>
-            <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">€ 100.000 (risposte tardive clienti Top, opportunità nuovi clienti, riunioni ed appuntamenti saltati)</p>
+            <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">€ 30.000 (risposte tardive clienti Top, opportunità nuovi clienti, riunioni ed appuntamenti saltati)</p>
           </div>
 
           <div class="card">
@@ -1396,9 +1434,9 @@
         </div>
         <div class="kpi-row">
           <div class="card metric"><div class="value">322</div><div class="label-sm"> Ore Recuperate</div></div>
-          <div class="card metric"><div class="value pos">€ 32.200</div><div class="label-sm">Valore Ore Recuperate</div></div>
-          <div class="card metric"><div class="value pos">€ 100.000</div><div class="label-sm">Rischio/perdita evitata/ anno</div></div>
-          <div class="card metric"><div class="value pos">€ 132.200</div><div class="label-sm">Beneficio totale / anno</div></div>
+          <div class="card metric"><div class="value pos">€ 16.100</div><div class="label-sm">Valore Ore Recuperate</div></div>
+          <div class="card metric"><div class="value pos">€ 30.000</div><div class="label-sm">Rischio/perdita evitata/ anno</div></div>
+          <div class="card metric"><div class="value pos">€ 46.100</div><div class="label-sm">Beneficio totale / anno</div></div>
         </div>
       </div>
     </section>
@@ -1419,7 +1457,7 @@
           <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">La responsabile vendite è sommersa da email dei clienti, fornitori, partner commerciali e necessita di tempo per leggere, selezionare e dare priorità alle risposte. Molte di queste email sono ripetitive e richiedono risposte già date in passato.</p>
 
           <h3>Rischio / perdita dichiarata</h3>
-          <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">€ 100.000 (risposte tardive clienti Top, opportunità nuovi clienti, invio preventivi ed offerte in ritardo, riunioni ed appuntamenti saltati)</p>
+          <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">€ 20.000 (risposte tardive clienti Top, opportunità nuovi clienti, invio preventivi ed offerte in ritardo, riunioni ed appuntamenti saltati)</p>
         </div>
         <div class="card mt-12">
           <h3>Soluzione proposta</h3>
@@ -1428,8 +1466,8 @@
         <div class="kpi-row">
           <div class="card metric"><div class="value">230</div><div class="label-sm"> Ore Recuperate</div></div>
           <div class="card metric"><div class="value pos">€ 6.900</div><div class="label-sm">Valore Ore Recuperate</div></div>
-          <div class="card metric"><div class="value pos">€ 100.000</div><div class="label-sm">Rischio/perdita evitata/ anno</div></div>
-          <div class="card metric"><div class="value pos">€ 106.900</div><div class="label-sm">Beneficio totale / anno</div></div>
+          <div class="card metric"><div class="value pos">€ 20.000</div><div class="label-sm">Rischio/perdita evitata/ anno</div></div>
+          <div class="card metric"><div class="value pos">€ 26.900</div><div class="label-sm">Beneficio totale / anno</div></div>
         </div>
       </div>
     </section>
@@ -1452,12 +1490,12 @@
             <p style="font-size:1.0rem;font-weight:700; margin-bottom: 12px;">Ad oggi le fatture di acquisto e vendita, DDT e ordini sono inseriti manualmente sull'ERP (Fluentis).</p> 
             <p style="font-size:1.0rem;font-weight:700; margin-bottom: 12px;">Il personale amministrativo registra tutto su Fluentis, ma duplica tutto anche su Excel per doppio controllo.</p>   
             <p style="font-size:1.0rem;font-weight:700; margin-bottom: 12px;">Esiste un software custom (“Sistemi Informativi”) creato da un consulente informatico esterno che semplifica collegamenti tra la suite Microsoft e Fluentis.</p>
+            
+            </div>
+            <div class="card">
             <h3>Rischio - Perdita potenziale</h3>
-            <p style="font-size:1.0rem;font-weight:700; margin-bottom: 12px;">€ 100.000 (errori di inserimento, duplicazioni, mancati controlli, mancati pagamenti, mancate registrazioni)</p>
-          
-          </div>
-          <div class="card">
-            <h3>AI Agents ERP</h3>
+            <p style="font-size:1.0rem;font-weight:700; margin-bottom: 12px;">€ 40.000 (errori di inserimento, duplicazioni, mancati controlli, mancati pagamenti, mancate registrazioni)</p>
+            <h3>Soluzioni proposte: AI Agents per ERP</h3>
             <ul class="clean">
               <li>AI Assistant per controllo e inserimento fatture in ERP</li>
               <li>AI Assistant per controllo e inserimento DDT in ERP</li>
@@ -1472,13 +1510,14 @@
                 <p>La licenza Fluentis di Nutfruit non ha moduli AI attivi (a differenza di altre aziende del gruppo/ecosistema).</p> 
                 <p>Il listino prezzi delle soluzioni agentiche di Fluentis non è trasparente: va verificato con il fornitore attuale APIWEB.</p>
                 <p>Le soluzioni agentiche di Fluentis potrebbero non essere convenienti: va verificato se conviene attivarle o sviluppare agenti esterni.</p>
+                <p>* L'importo è stato già conteggiato nel totale Magazzino Intelligente</p>
               </div>
         </div>
       <div class="kpi-row">
         <div class="card metric"><div class="value">1380</div><div class="label-sm"> Ore Recuperate</div></div>
         <div class="card metric"><div class="value pos">€ 41.400</div><div class="label-sm">Valore Ore Recuperate</div></div>
-        <div class="card metric"><div class="value pos">€ 100.000</div><div class="label-sm">Rischio/perdita evitata/ anno</div></div>
-        <div class="card metric"><div class="value pos">€ 141.400</div><div class="label-sm">Beneficio totale / anno</div></div>
+        <div class="card metric"><div class="value pos">€ 40.000 (*)</div><div class="label-sm">Rischio/perdita evitata/ anno</div></div>
+        <div class="card metric"><div class="value pos">€ 41.400</div><div class="label-sm">Beneficio totale / anno</div></div>
       </div>
       </div>
     </section>
@@ -1503,7 +1542,7 @@
             <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">Non ci sono strumenti informatici per gestire il magazzino.</p>
             <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">Il tecnico di produzione impiega ore per controllare la quantità e la posizione delle merci in magazzino.</p>
             <h3>Rischio - Perdita potenziale</h3>
-            <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">€ 100.000 (furti, errori, stock-out, overstock, tempi morti)</p>
+            <p style="font-size:0.88rem;font-weight:700; margin-bottom: 12px;">€ 100.000 (furti, errori ERP, stock-out, overstock, ritardi produzione )</p>
           
           </div>
           <div class="card">
@@ -1524,9 +1563,12 @@
         </div>
         <div class="kpi-row">
           <div class="card metric"><div class="value">690</div><div class="label-sm"> Ore Recuperate</div></div>
-          <div class="card metric"><div class="value pos">€ 20.700</div><div class="label-sm">Valore Ore Recuperate</div></div>
+          <div class="card metric"><div class="value pos">€ 34.500(*)</div><div class="label-sm">Valore Ore Recuperate</div></div>
           <div class="card metric"><div class="value pos">€ 100.000</div><div class="label-sm">Rischio/perdita evitata/ anno</div></div>
-          <div class="card metric"><div class="value pos">€ 120.700</div><div class="label-sm">Beneficio totale / anno</div></div>
+          <div class="card metric"><div class="value pos">€ 134.500</div><div class="label-sm">Beneficio totale / anno</div></div>
+        </div>
+        <div class="alert-box mt-12">
+          <strong>*Nota importante:</strong> il valore delle Ore Recuperate è stato già conteggiato nel totale Magazzino Intelligente.
         </div>
       </div>
     </section>
@@ -1535,8 +1577,10 @@
     <section class="slide divider-slide" data-slide="26">
       <div class="slide-inner" style="align-items:center;">
         <div class="label" style="color:var(--accent);">Pilastri</div>
-        <h1>Approfondimento dei 4 Pilastri</h1>
-        <p class="subtitle">Ogni Pilastro viene analizzato con situazione attuale, piano d’azione, tempi, investimenti e vantaggi economici dettagliati.</p>
+        <h1>Approfondimento dei 3 Pilastri</h1>
+        <p style="color:var(--accent-white); font-size:1.3rem;font-weight:500;">Ogni Pilastro viene analizzato con situazione attuale, <br>
+
+          piano d’azione, tempi, investimenti e vantaggi economici dettagliati.</p>
       </div>
     </section>
 
@@ -1544,7 +1588,7 @@
     <section class="slide" data-slide="27">
       <div class="slide-inner">
         <div class="label">Pilastro N° 01 · Priorità Urgente</div>
-        <h1>Organizzazione e Digitalizzazione Magazzino</h1>
+        <h1>Magazzino Intelligente</h1>
         <p class="subtitle">Situazione attuale</p>
 
         <div class="card">
@@ -1558,16 +1602,18 @@
           <div class="card">
             <h3>Problemi ricorrenti</h3>
             <ul class="clean">
-              <li>Merce in magazzino non corrisponde a Fluentis</li>
-              <li>DDT inseriti solo manualmente</li>
-              <li>Duplicazioni e discrepanze continue</li>
+              <li>Perdite di tempo personale nel trovare tipologia, quantità e posizione della merce</li>
+              <li>Ritardi produzione</li>
+              <li>Merce in magazzino a rischio di perdite</li>
+              <li>DDT inseriti solo manualmente non tracciabili</li>
+              <li>Duplicazioni e discrepanze continue in contabilità ERP (Fluentis)</li>
               <li>Modulo MPS di Fluentis non utilizzabile</li>
             </ul>
           </div>
           <div class="card">
             <h3>Impatto stimato delle perdite occulte</h3>
-            <p style="font-size:1.4rem;font-weight:700;">€ 100.000 – € 200.000 / anno</p>
-            <p class="text-muted" style="font-size:0.85rem;">Furti, errori, stock-out, overstock, tempi morti</p>
+            <p style="font-size:1.1rem;font-weight:700;">€ 100.000 (1°anno)- € 150.000 (2°anno) </p>
+            <p class="text-muted" style="font-size:0.85rem;">Furti, errori, stock-out, overstock, ritardi produzione</p>
           </div>
         </div>
       </div>
@@ -1630,7 +1676,7 @@
             </thead>
             <tbody>
               <tr>
-                <td>Assunzione magazziniere</td>
+                <td>Assunzione magazziniere FULL TIME</td>
                 <td class="num">€ 45.000</td>
                 <td class="num">€ 45.000</td>
               </tr>
@@ -1669,54 +1715,38 @@
               </thead>
               <tbody>
               <tr>
-                <td>Riduzione errori e perdite di merce</td>
-                <td class="num pos">€ 50.000</td>
-                <td class="num pos">€ 100.000</td>
+                <td>Duplicazioni ERP, furti, perdite di merce</td>
+                <td class="num pos">€ 40.000</td>
+                <td class="num pos">€ 70.000</td>
+              </tr>
+              <tr>
+                <td>Errori di calcolo pianificazione produzione</td>
+                <td class="num pos">€ 10.000</td>
+                <td class="num pos">€ 10.000</td>
               </tr>
               <tr>
                 <td>Riduzione stock-out</td>
                 <td class="num pos">€ 25.000</td>
-                <td class="num pos">€ 50.000</td>
+                <td class="num pos">€ 35.000</td>
               </tr>
               <tr>
                 <td>Riduzione overstock</td>
                 <td class="num pos">€ 25.000</td>
-                <td class="num pos">€ 50.000</td>
+                <td class="num pos">€ 35.000</td>
               </tr>
               <tr>
-                <td>Ore Recuperate Operatori</td>
-                <td class="num pos">€ 20.700</td>
-                <td class="num pos">€ 20.700</td>
+                <td>Valore Ore Recuperate</td>
+                <td class="num pos">€ 34.500</td>
+                <td class="num pos">€ 34.500</td>
               </tr>
               <tr>
                 <td style="font-size:1.3rem;"> <strong>Totale vantaggi</strong></td>
-                <td style="font-size:1.3rem;" class="num pos"><strong>€ 120.700</strong></td>
-                <td style="font-size:1.3rem;" class="num pos"><strong>€ 220.700</strong></td>
+                <td style="font-size:1.3rem;" class="num pos"><strong>€ 134.500</strong></td>
+                <td style="font-size:1.3rem;" class="num pos"><strong>€ 184.500</strong></td>
               </tr>
             </tbody>
           </table>
           </div>
-          
-          <div class="table-wrap"> 
-            <table>
-              <thead>
-                <tr>
-                  <th>Benefici stimati</th>
-                  <th class="num">Primo Anno</th>
-                  <th class="num">Secondo Anno</th>
-                </tr>
-              </thead>
-              <tbody>
-              
-              <tr>
-                <td style="font-size:1.3rem;"> <strong>Totale benefici stimati</strong></td>
-                <td style="font-size:1.3rem;" class="num pos"><strong>€ 38.200</strong></td>
-                <td style="font-size:1.3rem;" class="num pos"><strong>€ 165.700</strong></td>
-              </tr>
-            </tbody>
-          </table>
-
-        </div>
       </div>
     </section>
 
@@ -1724,7 +1754,7 @@
     <section class="slide" data-slide="30">
       <div class="slide-inner">
         <div class="label">Pilastro N° 02 · Priorità Urgente</div>
-        <h1>Digital Transformation — Fractional CTO</h1>
+        <h1>AI Adoption + Fractional CTO</h1>
         <p class="subtitle">Situazione attuale dell’IT</p>
 
         <div class="card-grid cols-2">
@@ -1753,13 +1783,14 @@
         </div>
 
         <div class="alert-box mt-12">
-          Grazie all'intervento di Fabio B. Forgione, l'azienda ha provveduto:
+          <p style="font-size:0,85rem;"><strong>Grazie all'intervento di Fabio B. Forgione, l'azienda ha provveduto:
           <br>
-          <br>- alla formazione del team sull'AI literacy (obbligo art. 4 AI Act, applicabile dal 2 febbraio 2025)
+           - alla formazione del team sull'AI literacy (obbligo art. 4 AI Act, applicabile dal 2 febbraio 2025)
           <br>
-          <br>- all'acquisto e all'installazione di 8 licenze ufficiali Microsoft 365 Business Standard + Copilot
+          - all'acquisto e all'installazione di 8 licenze ufficiali Microsoft 365 Business Standard + Copilot
           <br>
-          <br>Queste azioni riducono il rischio di sanzioni (fino al 4% del fatturato mondiale per violazioni GDPR) e di danni reputazionali. Non equivalgono, da sole, alla piena conformità all'AI Act: gli obblighi per i sistemi ad alto rischio si applicano dal 2 agosto 2026.
+          <br>Queste azioni riducono il rischio di sanzioni (fino al 4% del fatturato mondiale per violazioni GDPR) e di danni reputazionali. 
+          <br>Non equivalgono, da sole, alla piena conformità all'AI Act: gli obblighi per i sistemi ad alto rischio si applicano dal 2 agosto 2026. </strong></p>
         </div>
       </div>
     </section>
@@ -1768,16 +1799,15 @@
     <section class="slide" data-slide="31">
       <div class="slide-inner">
         <div class="label">Pilastro N° 02 · Cosa fa il Fractional CTO</div>
-        <h1>Ruolo completo del Fractional CTO (12 mesi)</h1>
+        <h1>Ruolo completo del Fractional CTO (600 ore in 12 mesi)</h1>
         
-        <div class="card-grid cols-2">
+        <div class="card-grid">
           <div class="card">
             <h3>1. Governance e controllo</h3>
             <ul class="clean">
-              <li>Mappatura completa infrastruttura IT - OT</li>
-              <li>Definizione ruoli tra AU, CMO, Social Media Strategist, Social Media Manager, fornitori IT</li>
+              <li>Mappatura completa infrastruttura IT - OT, definizione ruoli tra AU, CMO, SM Strategist, SM Manager, fornitori IT</li>
               <li>Definizione priorità e scadenze </li>
-              <li>AI Assessment</li>
+              <li>AI Assessment + AI Company Brain (knowledge base aziendale + cultura e continuità)</li>
             </ul>
           </div>
           <div class="card">
@@ -1803,6 +1833,7 @@
             <li>Coordina Gestionale magazzino (WMS), integrazioni Fluentis.</li>
             <li>Definisce roadmap AI Adoption 12 – 24 mesi. </li>
             <li>Controlla prezzi e rapporti fornitori IT</li>
+            <li>Aiuta nella creazione, gestione e aggiornamento dell' AI Company Brain</li>
             <li>Diventa punto di riferimento tecnologico per l’AU.</li>
             </ul>
           </div>
@@ -1813,23 +1844,73 @@
     <!-- ==================== SLIDE 32: CTO ECONOMICS ==================== -->
     <section class="slide" data-slide="32">
       <div class="slide-inner">
-        <div class="label">Pilastro N° 02 · Chief Technology Officer (CTO)</div>
-        <h1>Investimenti e vantaggi — Fractional CTO</h1>
+        <div class="label">Pilastro N° 02 · AI Adoption + CTO</div>
+        <h1>Investimenti e vantaggi: AI Adoption + Fractional CTO</h1>
         
-        <div class="kpi-row">
-          <div class="card metric">
-            <div class="value">€ 6.500</div>
-            <div class="label-sm">Investimento mensile</div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Investimenti</th>
+                <th class="num">1° anno</th>
+                <th class="num">2° anno</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Fractional CTO (Chief Technology Officer)</td>
+                <td class="num">€ 78.000</td>
+                <td class="num">€ 78.000</td>
+              </tr>
+
+              <tr>
+                <td>Sviluppo Agente AI Email</td>
+                <td class="num">€ 10.000</td>
+                <td class="num">€ 0</td>
+              </tr>
+              <tr>
+                <td>Sviluppo Agente AI Assistenza Clienti</td>
+                <td class="num">€ 10.000</td>
+                <td class="num">€ 0</td>
+              </tr>
+              <tr>
+                <td>Sviluppo Agente AI Preventivi</td>
+                <td class="num">€ 10.000</td>
+                <td class="num">€ 0</td>
+              </tr>
+              <tr>
+                <td>Manutenzione / assistenza agenti</td>
+                <td class="num">€ 7.200</td>
+                <td class="num">€ 10.800</td>
+              </tr>
+              <tr>
+                <td>Account AI (Claude, ChatGPT, Grok, Gemini…)</td>
+                <td class="num">€ 1.200</td>
+                <td class="num">€ 1.200</td>
+              </tr>
+              <tr>
+                <td>Costi tokens API x LLM (OpenAI, Anthropic, Grok, Gemini…)</td>
+                <td class="num">€ 12.000</td>
+                <td class="num">€ 24.000</td>
+              </tr>
+              <tr>
+                <td>Formazione AI avanzata (max 10 persone)</td>
+                <td class="num">€ 10.000</td>
+                <td class="num">€ 0</td>
+              </tr>
+              <tr>
+                <td>Piattaforma Monitoraggio Prezzi Mandorle e News</td>
+                <td class="num">€ 20.000</td>
+                <td class="num">€ 20.000</td>
+              </tr>
+              <tr>
+                <td style="font-size:1.3rem;"><strong>Totale Investimenti</strong></td>
+                <td class="num" style="font-size:1.3rem;"><strong>€ 158.400</strong></td>
+                <td class="num" style="font-size:1.3rem;"><strong>€ 134.000</strong></td>
+              </tr>
+            </tbody>
+          </table>
           </div>
-          <div class="card metric">
-            <div class="value">€ 78.000</div>
-            <div class="label-sm">Costo annuale</div>
-          </div>
-          <div class="card metric">
-            <div class="value pos">€ 270.000 – € 410.000</div>
-            <div class="label-sm">Benefici stimati 1° anno - 2° anno</div>
-          </div>
-        </div>
 
         <div class="table-wrap mt-12">
           <table>
@@ -1841,18 +1922,17 @@
               </tr>
             </thead>
             <tbody>
-              <tr><td>AI Adoption abilitata</td><td class="num pos">€ 100.000</td><td class="num pos">€ 100.000</td></tr>
-              <tr><td>Riduzione rischi cyber e down-time</td><td class="num pos">€ 40.000</td><td class="num pos">€ 100.000</td></tr>
-              <tr><td>Conformità GDPR (IT, email, accessi) e riduzione sanzioni</td><td class="num pos">€ 40.000</td><td class="num pos">€ 100.000</td></tr>
-              <tr><td>Tempo Amministratore Unico recuperato</td><td class="num pos">€ 25.000</td><td class="num pos">€ 25.000</td></tr>
-              <tr><td>Maggiore produttività (PC, rete, email)</td><td class="num pos">€ 15.000</td><td class="num pos">€ 15.000</td></tr>
-              <tr><td>Miglioramento sito + e-commerce</td><td class="num pos">€ 10.000</td><td class="num pos">€ 10.000</td></tr>
-              <tr><td>Controllo fornitori e risparmi emergenze</td><td class="num pos">€ 10.000</td><td class="num pos">€ 30.000</td></tr>
-              <tr><td>Rischio errori fatture evitati</td><td class="num pos">€ 30.000</td><td class="num pos">€ 30.000</td></tr>
-              
-              <tr style="font-size:1.3rem;"><td>Totale Vantaggi</td>
-              <td class="num pos" style="font-size:1.3rem;"><strong>€ 270.000</strong></td>
-              <td class="num pos" style="font-size:1.3rem;"><strong>€ 410.000</strong></td>
+              <tr><td>AI Adoption nei processi mappati</td><td class="num pos">€ 109.940</td><td class="num pos">€ 109.940</td></tr>
+              <tr><td>Perdite da nuovi e vecchi clienti evitate</td><td class="num pos">€ 50.000</td><td class="num pos">€ 50.000</td></tr>
+              <tr><td>Perdite da gestione email evitate + nuovi lead</td><td class="num pos">€ 50.000</td><td class="num pos">€ 50.000</td></tr>
+              <tr><td>Riduzione rischi cyber e down-time</td><td class="num pos">€ 20.000</td><td class="num pos">€ 20.000</td></tr>
+              <tr><td>AI Company Brain</td><td class="num pos">€ 40.000</td><td class="num pos">€ 40.000</td></tr>
+              <tr><td>Margine recuperato dal monitoraggio prezzi e news</td><td class="num pos">€ 30.000</td><td class="num pos">€ 60.000</td></tr>
+              <tr><td>Controllo fornitori e risparmi emergenze</td><td class="num pos">€ 5.000</td><td class="num pos">€ 5.000</td></tr>
+      
+              <td style="font-size:1.3rem;"><strong>Totale Vantaggi</strong></td>
+              <td class="num pos" style="font-size:1.3rem;"><strong>€ 304.940</strong></td>
+              <td class="num pos" style="font-size:1.3rem;"><strong>€ 334.940</strong></td>
             </tr>
             </tbody>
           </table>
@@ -1860,217 +1940,30 @@
       </div>
     </section>
 
-    <!-- ==================== SLIDE 33: MARKETING SITUAZIONE ==================== -->
+    
+    <!-- ==================== SLIDE 33: AI ADOPTION SITUAZIONE ==================== -->
     <section class="slide" data-slide="33">
       <div class="slide-inner">
-        <div class="label">Pilastro N° 03 · Priorità Alta</div>
-        <h1>Digital Marketing — Situazione attuale</h1>
-        
-        <div class="card-grid cols-2">
-          <div class="card">
-            <h3>Sito web e e-commerce</h3>
-            <ul class="clean">
-              <li>Sito vecchio e non responsive su smartphone</li>
-              <li>Informazioni non aggiornate (ex amministratore, email errate)</li>
-              <li>Vecchio logo, grafiche non ottimizzate</li>  
-              <li>Non conforme Regolamento Europeo Privacy - GDPR (cookie, consent database)</li>
-              <li>E-commerce obsoleto e non conforme al regolamento Europeo Privacy - GDPR</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>Social Media e lead generation</h3>
-            <ul class="clean">
-              <li>Account Facebook, Instagram, TikTok poco attivi</li>
-              <li>Contenuti occasionali (collaborazione con influencer “Salvo”)</li>
-              <li>Assenza di campagne a pagamento strutturate</li>
-              <li>Nessun Social Media Strategist</li>
-              <li>Nessun Social Media Manager</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="alert-box mt-12">
-        Rischio di dipendere solo da passaparola e clienti storici. 
-        <br> 
-        <br>
-        <strong>Opportunità perse stimate provenienti da:</strong>
-        <br>
-        <br>
-        Sito web + e-commerce € 20.000 – € 50.000; 
-        <br> 
-        <br>
-        Lead generation € 30.000 – € 80.000; 
-        <br> 
-        <br>
-        Brand debole € 40.000.
-        </div>
-      </div>
-    </section>
-
-    <!-- ==================== SLIDE 34: MARKETING CMO ==================== -->
-    <section class="slide" data-slide="34">
-      <div class="slide-inner">
-        <div class="label">Pilastro N° 03 · Soluzione</div>
-        <h1>Fractional CMO (12 - 24 mesi)</h1>
-        
-        <div class="card">
-          <p>Direttore Marketing part-time (2/3 giorni a settimana). Porta leadership strategica senza un’assunzione full-time.</p>
-          <p>Il Fractional CMO è un consulente esterno che fornisce la leadership strategica per il marketing dell'azienda.</p>
-          <p>Il Fractional CMO non sostituisce le agenzie di marketing: le dirige, le controlla e le rende efficaci.</p>
-          <p>Insieme al Fractional CTO è una figura indispensabile per la crescita dell'azienda.</p>
-        </div>
-
-        <div class="card-grid cols-3" style="margin-top:12px;">
-          <div class="card">
-            <h3>Strategia</h3>
-            <p>Target, messaggi chiave, proposta di valore, posizionamento vs competitor.</p>
-          </div>
-          <div class="card">
-            <h3>Presenza digitale</h3>
-            <p>Rinnovo sito + e-commerce, conformità GDPR, SEO base, contenuti prioritari.</p>
-          </div>
-          <div class="card">
-            <h3>Lead generation</h3>
-            <p>Sistema misurabile (sito, campagne, LinkedIn/email) allineato alle vendite.</p>
-          </div>
-        </div>
-
-        <div class="kpi-row" style="margin-top:14px;">
-          <div class="card metric"><div class="value">€ 117.200</div><div class="label-sm">Investimento annuale</div></div>
-          <div class="card metric"><div class="value pos">€ 150.000</div><div class="label-sm">Benefici 1° anno</div></div>
-          <div class="card metric"><div class="value pos">€ 230.000</div><div class="label-sm">Benefici 2° anno</div></div>
-        </div>
-      </div>
-    </section>
-
-
-
-
-
-
-
-
- <!-- ==================== SLIDE 35: CMO - COSTI BENEFICI ==================== -->
- <section class="slide" data-slide="35">
-  <div class="slide-inner">
-    <div class="label">Pilastro N° 03 · Priorità Alta</div>
-    <h1>CMO - Costi e benefici</h1>
-
-
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Investimento iniziale</th>
-            <th class="num">Primo Anno</th>
-            <th class="num">Secondo Anno</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Assunzione Fractional CMO</td>
-            <td class="num">€ 48.000</td>
-            <td class="num">€ 48.000</td>
-          </tr>
-          <tr>
-            <td>Nuovo sito web + e-commerce</td>
-            <td class="num">€ 30.000</td>
-            <td class="num">€ 1.200</td>
-          </tr>
-          <tr>
-            <td>Fractional Social Media Strategist</td>
-            <td class="num">€ 7.200</td>
-            <td class="num">€ 7.200</td>
-          </tr>
-          <tr>
-            <td>AIMIGO: AI Social Media Manager</td>
-            <td class="num">€ 5.000</td>
-            <td class="num">€ 5.000</td>
-          </tr>
-          <tr>
-            <td>Campagne a pagamento Social Media</td>
-            <td class="num">€ 12.000</td>
-            <td class="num">€ 12.000</td>
-          </tr>
-          <tr>
-            <td>Luxury Almonds Strategy</td>
-            <td class="num">€ 15.000</td>
-            <td class="num">€ 15.000</td>
-          </tr>
-          <tr>
-            <td style="font-size:1.3rem;"> Totale investimenti</td>
-            <td style="font-size:1.3rem;" class="num"><strong>€ 117.200</strong></td>
-            <td style="font-size:1.3rem;" class="num"><strong>€ 88.400</strong></td>
-          </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="table-wrap"> 
-        <table>
-          <thead>
-            <tr>
-              <th>Vantaggi economici</th>
-              <th class="num">Primo Anno</th>
-              <th class="num">Secondo Anno</th>
-            </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td>Sanzioni evitate (sito, cookie, e-commerce GDPR)</td>
-            <td class="num pos">€ 40.000</td>
-            <td class="num pos">€ 40.000</td>
-          </tr>
-          <tr>
-            <td>Vendite online da e-commerce</td>
-            <td class="num pos">€ 80.000</td>
-            <td class="num pos">€ 160.000</td>
-          </tr>
-          <tr>
-            <td>Rafforzamento brand</td>
-            <td class="num pos">€ 30.000</td>
-            <td class="num pos">€ 30.000</td>
-          </tr>
-          <tr>
-            <td style="font-size:1.3rem;"> <strong>Totale vantaggi</strong></td>
-            <td style="font-size:1.3rem;" class="num pos"><strong>€ 150.000</strong></td>
-            <td style="font-size:1.3rem;" class="num pos"><strong>€ 230.000</strong></td>
-          </tr>
-        </tbody>
-      </table>
-      </div>
-      
-      <div class="table-wrap"> 
-        <table>
-          <thead>
-            <tr>
-              <th>Benefici stimati</th>
-              <th class="num">Primo Anno</th>
-              <th class="num">Secondo Anno</th>
-            </tr>
-          </thead>
-          <tbody>
-          
-          <tr>
-            <td style="font-size:1.3rem;"> <strong>Totale benefici stimati</strong></td>
-            <td style="font-size:1.3rem;" class="num pos"><strong>€ 32.800</strong></td>
-            <td style="font-size:1.3rem;" class="num pos"><strong>€ 141.600</strong></td>
-          </tr>
-        </tbody>
-      </table>
-
-    </div>
-    </div>
-    </section>
-
-    <!-- ==================== SLIDE 36: AI ADOPTION SITUAZIONE ==================== -->
-    <section class="slide" data-slide="36">
-      <div class="slide-inner">
-        <div class="label">Pilastro N° 04 · Priorità Urgente</div>
+        <div class="label">Pilastro N° 02 · Priorità Urgente</div>
         <h1>AI Adoption — Situazione e maturità</h1>
         
         <div class="card">
-          <p>L’azienda è ancora in fase di <strong>digitalizzazione di base</strong>: magazzino manuale, IT frammentata, sito datato, moduli AI di Fluentis non attivati. Formazione AI literacy già svolta (29 luglio 2026), in linea con l’obbligo art. 4 AI Act applicabile dal 2 febbraio 2025.</p>
+          <p>L’azienda è ancora in fase di <strong>digitalizzazione di base</strong>: 
+            <br>
+            <br>
+            - Magazzino gestito manualmente, 
+            <br>
+            <br>
+            - IT frammentata senza owner e responsabili, 
+            <br>
+            <br>
+            - Sito web ed e-commerce datati e non conformi al regolamento Europeo Privacy - GDPR, 
+            <br>
+            <br>
+            - Moduli AI di Fluentis non attivati. 
+            <br>
+            <br>
+            - Formazione AI literacy già svolta (29 luglio 2026), in linea con l’obbligo art. 4 AI Act applicabile dal 2 febbraio 2025.</p>
         </div>
 
         <div class="card mt-12">
@@ -2087,20 +1980,11 @@
       </div>
     </section>
 
-    <!-- ==================== SLIDE 37: AI ADOPTION PIANO ==================== -->
-    <section class="slide" data-slide="37">
+    <!-- ==================== SLIDE 34: AI ADOPTION PIANO ==================== -->
+    <section class="slide" data-slide="34">
       <div class="slide-inner">
-        <div class="label">Pilastro N° 04 · Piano</div>
+        <div class="label">Pilastro N° 02 · Piano</div>
         <h1>Piano AI Adoption a 12 – 24 mesi</h1>
-
-      
-        <div class="kpi-row" style="margin-top:14px;">
-          <div class="card metric"><div class="value">€ 60.400</div><div class="label-sm">Investimento 1° anno</div></div>
-          <div class="card metric"><div class="value">€ 36.000</div><div class="label-sm">Investimento 2° anno</div></div>
-          <div class="card metric"><div class="value pos">€ 666.040</div><div class="label-sm">Benefici 1° anno</div></div>
-          <div class="card metric"><div class="value pos">€ 666.040</div><div class="label-sm">Benefici 2° anno</div></div>
-
-        </div>
         <div class="card-grid cols-3">
           <div class="card">
             <div class="label">Fase 1 · mesi 1–6</div>
@@ -2125,743 +2009,204 @@
       </div>
     </section>
 
-    <!-- ==================== SLIDE 38: AI ECONOMICS ==================== -->
-    <section class="slide" data-slide="38">
-      <div class="slide-inner">
-        <div class="label">Pilastro N° 04 · Economia</div>
-        <h1>Investimenti e vantaggi — AI Adoption</h1>
-        
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Investimenti</th>
-                <th class="num">1° anno</th>
-                <th class="num">2° anno</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Account AI (Claude, ChatGPT, Grok, Gemini…)</td>
-                <td class="num">€ 1.200</td>
-                <td class="num">€ 1.200</td>
-              </tr>
-              <tr>
-                <td>Costi API LLM per agenti</td>
-                <td class="num">€ 12.000</td>
-                <td class="num">€ 24.000</td>
-              </tr>
-              <tr>
-                <td>Sviluppo Agente AI Email</td>
-                <td class="num">€ 10.000</td>
-                <td class="num">€ 0</td>
-              </tr>
-              <tr>
-                <td>Sviluppo Agente AI Assistenza Clienti</td>
-                <td class="num">€ 10.000</td>
-                <td class="num">€ 0</td>
-              </tr>
-              <tr>
-                <td>Sviluppo Agente AI Preventivi</td>
-                <td class="num">€ 10.000</td>
-                <td class="num">€ 0</td>
-              </tr>
-              <tr>
-                <td>Manutenzione / assistenza agenti</td>
-                <td class="num">€ 7.200</td>
-                <td class="num">€ 10.800</td>
-              </tr>
-              <tr>
-                <td>Formazione avanzata (max 10 persone)</td>
-                <td class="num">€ 10.000</td>
-                <td class="num">€ 0</td>
-              </tr>
-              <tr>
-                <td style="font-size:1.3rem;"><strong>Totale Investimenti</strong></td>
-                <td class="num" style="font-size:1.3rem;"><strong>€ 60.400</strong></td>
-                <td class="num" style="font-size:1.3rem;"><strong>€ 36.000</strong></td>
-              </tr>
-            </tbody>
-          </table>
-          </div>
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Vantaggi</th>
-                  <th class="num">1° anno</th>
-                  <th class="num">2° anno</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td style="font-size:1.3rem;"><strong>Totale vantaggi (inclusi i rischi evitati sui processi non coperti dal magazzino)</strong></td>
-                  <td class="num pos" style="font-size:1.3rem;"><strong>€ 666.040</strong></td>
-                  <td class="num pos" style="font-size:1.3rem;"><strong>€ 666.040</strong></td>
-                </tr>
-              </tbody>
-            </table>
-        </div>
-      </div>
-    </section>
+    
 
-    <!-- ==================== SLIDE 39: DIVIDER "casi studio" ==================== -->
-    <section class="slide divider-slide" data-slide="39">
-      <div class="slide-inner" style="align-items:center;">
-        <div class="label" style="color:var(--accent);">Casi studio AI</div>
-        <h1>I "casi studio" AI prioritari</h1>
-        <p class="subtitle">Ogni "caso studio" è collegato a un processo mappato e ad un Pilastro. Di seguito ROI a bande, architettura e KPI.</p>
-      </div>
-    </section>
-
-    <!-- ==================== SLIDE 40: "caso studio" TABLE ==================== 
-    <section class="slide" data-slide="40">
+    <!-- ==================== SLIDE 35: MARKETING SITUAZIONE ==================== -->
+    <section class="slide" data-slide="35">
       <div class="slide-inner">
-        <div class="label">Casi studio · Overview</div>
-        <h1>Business case a bande (min / base / max)</h1>
-        
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Caso Studio</th>
-                <th class="num">Min</th>
-                <th class="num">Base</th>
-                <th class="num">Max</th>
-                <th class="num">TCO Y1</th>
-                <th>Conf.</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Automazione inserimento fatture Fluentis</td>
-                <td class="num">€ 36.276</td>
-                <td class="num">€ 51.823</td>
-                <td class="num">€ 67.370</td>
-                <td class="num">€ 12.800</td>
-                <td>HIGH</td>
-              </tr>
-              <tr>
-                <td>Automazione workflow ripetitivi (magazzino)</td>
-                <td class="num">€ 46.457</td>
-                <td class="num">€ 66.367</td>
-                <td class="num">€ 86.277</td>
-                <td class="num">€ 10.320</td>
-                <td>HIGH</td>
-              </tr>
-              <tr>
-                <td>Copilot documentale / knowledge</td>
-                <td class="num">€ 7.638</td>
-                <td class="num">€ 10.912</td>
-                <td class="num">€ 14.186</td>
-                <td class="num">€ 15.160</td>
-                <td>HIGH</td>
-              </tr>
-              <tr>
-                <td>Integrazione dati (riduzione doppio inserimento)</td>
-                <td class="num">€ 11.457</td>
-                <td class="num">€ 16.367</td>
-                <td class="num">€ 21.277</td>
-                <td class="num">€ 12.800</td>
-                <td>HIGH</td>
-              </tr>
-              <tr>
-                <td>Assistente AI richieste clienti</td>
-                <td class="num">€ 38.056</td>
-                <td class="num">€ 54.365</td>
-                <td class="num">€ 70.675</td>
-                <td class="num">€ 10.440</td>
-                <td>HIGH</td>
-              </tr>
-              <tr>
-                <td>Gestione ordini e magazzino assistita</td>
-                <td class="num">€ 15.083</td>
-                <td class="num">€ 21.547</td>
-                <td class="num">€ 28.011</td>
-                <td class="num">€ 13.920</td>
-                <td>MED</td>
-              </tr>
-              <tr>
-                <td>Generazione assistita preventivi</td>
-                <td class="num">€ 3.056</td>
-                <td class="num">€ 4.365</td>
-                <td class="num">€ 5.675</td>
-                <td class="num">€ 10.320</td>
-                <td>HIGH</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
+        <div class="label">Pilastro N° 03 · Priorità Alta</div>
+        <h1>Marketing Aziendale — Situazione attuale</h1>
 
-    <!-- ==================== SLIDE 41: UC FATTURE ==================== 
-    <section class="slide" data-slide="41">
-      <div class="slide-inner">
-        <div class="label">Caso studio N° 01</div>
-        <h1>Automazione inserimento fatture su Fluentis</h1>
-        
-        <div class="row">
+        <div class="card-grid">
           <div class="card">
-            <h3>Pattern</h3>
-            <p><strong>Extraction</strong></p>
+            <h3>Strategie Marketing Aziendale</h3>
             <ul class="clean">
-              <li>Ingestione documenti (email, scansioni)</li>
-              <li>OCR + estrazione campi con soglia confidenza</li>
-              <li>Validazione umana sotto soglia</li>
-              <li>Scrittura su Fluentis + audit log</li>
+              <li>Assenza di un Direttore Marketing (CMO - Chief Marketing Officer)</li>
+              <li>Consulente marketing esterno: Simone Chiovitti</li>
+              <li>Interventi sporadici e non strutturati</li>
+              <li>Nessuna strategia marketing a medio/lungo termine </li>  
+              <li>Nessun Brand Guidelines</li>
             </ul>
           </div>
-          <div class="card">
-            <h3>ROI e KPI</h3>
-            <p>Base: <strong class="pos">€ 51.823 / anno</strong></p>
-            <p>TCO Y1: € 12.800</p>
-            <p class="mt-8">Baseline: 30 h/settimana<br>Target: riduzione ≈ 70% tempo automatizzabile</p>
-            <p class="mt-8">KPI: ore data entry, errori registrazione, tempi chiusura mensile</p>
-          </div>
-        </div>
-
-        <div class="alert-box mt-12">
-          Human-in-the-loop obbligatorio. Fallback: ritorno al processo manuale attuale con coda errori assegnata ad Amministrazione.
-        </div>
-      </div>
-    </section>
-
-    <!-- ==================== SLIDE 42: UC WORKFLOW ==================== 
-    <section class="slide" data-slide="42">
-      <div class="slide-inner">
-        <div class="label">Caso studio N° 02</div>
-        <h1>Automazione workflow ripetitivi (Magazzino)</h1>
         
-        <div class="row">
           <div class="card">
-            <h3>Pattern</h3>
-            <p><strong>Workflow</strong></p>
+            <h3>Sito web ed e-commerce</h3>
             <ul class="clean">
-              <li>Trigger evento (soglia scorte, scadenza, form)</li>
-              <li>Regole automatiche su percorso a basso rischio</li>
-              <li>Checkpoint umano sulle eccezioni</li>
-              <li>Tracciamento stato + audit log</li>
+              <li>Sito vecchio e non responsive su smartphone, No SEO</li>
+              <li>Informazioni non aggiornate*: vecchio logo, vecchio amministratore, emails errate
+                <br>
+                <br>
+                *aggiornate e corrette da Fabio B. Forgione nel luglio 2026</li>
+              <li>Non conforme Regolamento Europeo Privacy - GDPR (cookie, consent database)</li>
+              <li>E-commerce obsoleto e non conforme al regolamento Europeo Privacy - GDPR</li>
+            </ul>
+
+          </div>
+          <div class="card">
+            <h3>Social Media e lead generation</h3>
+            <ul class="clean">
+              <li>Account Facebook, Instagram, TikTok poco attivi</li>
+              <li>Contenuti occasionali (collaborazione con influencer “Salvo”)</li>
+              <li>Assenza di campagne a pagamento strutturate</li>
+              <li>Nessun Social Media Strategist</li>
+              <li>Nessun Social Media Manager</li>
             </ul>
           </div>
-          <div class="card">
-            <h3>ROI e KPI</h3>
-            <p>Base: <strong class="pos">€ 66.367 / anno</strong></p>
-            <p>TCO Y1: € 10.320</p>
-            <p class="mt-8">Baseline: 15 h/settimana su Gestione Magazzino</p>
-            <p class="mt-8">KPI: tempo ciclo, errori, task completati</p>
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- ==================== SLIDE 43: UC COPILOT ==================== 
-    <section class="slide" data-slide="43">
+    <!-- ==================== SLIDE 36: MARKETING CMO ==================== -->
+    <section class="slide" data-slide="36">
       <div class="slide-inner">
-        <div class="label">Caso studio N° 03</div>
-        <h1>Copilot documentale e knowledge assistant</h1>
-        
-        <div class="row">
-          <div class="card">
-            <h3>Pattern</h3>
-            <p><strong>RAG</strong></p>
-            <ul class="clean">
-              <li>Connettori alle fonti documentali</li>
-              <li>Indice di ricerca + retrieval</li>
-              <li>LLM con risposta e citazione fonte</li>
-              <li>Log query/risposte e feedback utente</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>ROI e KPI</h3>
-            <p>Base: <strong class="pos">€ 10.912 / anno</strong></p>
-            <p>TCO Y1: € 15.160</p>
-            <p class="mt-8">Baseline: 11 h/settimana su Creazione Distinte Base</p>
-            <p class="mt-8">KPI: tempo ricerca info, errori operativi, satisfaction team</p>
-          </div>
-        </div>
-        <p class="slide-note">Questo "caso studio" è candidato ideale per il pilot 0–30 giorni.</p>
-      </div>
-    </section>
-
-    <!-- ==================== SLIDE 44: UC INTEGRAZIONE ==================== 
-    <section class="slide" data-slide="44">
-      <div class="slide-inner">
-        <div class="label">Caso studio N° 04</div>
-        <h1>Integrazione dati e riduzione doppio inserimento</h1>
-        
-        <div class="row">
-          <div class="card">
-            <h3>Pattern</h3>
-            <p><strong>Integration</strong></p>
-            <ul class="clean">
-              <li>Connettori lettura/scrittura (Fluentis, Excel, WhatsApp)</li>
-              <li>Mappatura campi e regole di sincronizzazione</li>
-              <li>Scheduler / queue con retry</li>
-              <li>Log riconciliazione + alert disallineamenti</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>ROI e KPI</h3>
-            <p>Base: <strong class="pos">€ 16.367 / anno</strong></p>
-            <p>TCO Y1: € 12.800</p>
-            <p class="mt-8">KPI: record duplicati, tempo riconciliazione, errori data entry</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==================== SLIDE 45: UC ASSISTENTE CLIENTI ==================== 
-    <section class="slide" data-slide="45">
-      <div class="slide-inner">
-        <div class="label">Caso studio N° 05</div>
-        <h1>Assistente AI per richieste clienti</h1>
-        
-        <div class="row">
-          <div class="card">
-            <h3>Pattern</h3>
-            <p><strong>Copilot</strong></p>
-            <ul class="clean">
-              <li>Canale di ingaggio (email / chat interna)</li>
-              <li>Recupero dati da listini / storico / Fluentis</li>
-              <li>Bozza generata su template aziendali</li>
-              <li>Revisione e invio da parte dell’operatore</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>ROI e KPI</h3>
-            <p>Base: <strong class="pos">€ 54.365 / anno</strong></p>
-            <p>TCO Y1: € 10.440</p>
-            <p class="mt-8">KPI: tempo medio risposta, richieste chiuse, tasso riapertura</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==================== SLIDE 46: UC ORDINI MAGAZZINO ==================== 
-    <section class="slide" data-slide="46">
-      <div class="slide-inner">
-        <div class="label">Caso studio N° 06</div>
-        <h1>Gestione ordini e magazzino assistita</h1>
-        
-        <div class="row">
-          <div class="card">
-            <h3>Pattern</h3>
-            <p><strong>Workflow</strong></p>
-            <ul class="clean">
-              <li>Trigger su form, email, scadenza, soglia scorte</li>
-              <li>Regole automatiche a basso rischio</li>
-              <li>Checkpoint umano sulle eccezioni</li>
-              <li>Tracciamento stato + audit log</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>ROI e KPI</h3>
-            <p>Base: <strong class="pos">€ 21.547 / anno</strong></p>
-            <p>TCO Y1: € 13.920 · Confidence MEDIUM</p>
-            <p class="mt-8">KPI: errori ordine, tempo inserimento, rotture di stock</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==================== SLIDE 47: UC PREVENTIVI ==================== 
-    <section class="slide" data-slide="47">
-      <div class="slide-inner">
-        <div class="label"> 9 Casi studio" </div>
-        <h1>Generazione assistita di preventivi e offerte</h1>
-        
-        <div class="row">
-          <div class="card">
-            <h3>Pattern</h3>
-            <p><strong>Copilot</strong></p>
-            <ul class="clean">
-              <li>Canale email / UI interna</li>
-              <li>Recupero listini e storico</li>
-              <li>Bozza su template aziendali</li>
-              <li>Revisione e invio operatore</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>ROI e KPI</h3>
-            <p>Base: <strong class="pos">€ 4.365 / anno</strong></p>
-            <p>TCO Y1: € 10.320</p>
-            <p class="mt-8">KPI: tempo emissione preventivo, tasso conversione offerte, errori prezzo</p>
-          </div>
-        </div>
-        <p class="slide-note">Valore relativamente basso perché il processo di preventivazione nuovi clienti è già a 4 ore/settimana. Il valore strategico è nella qualità e velocità di risposta.</p>
-      </div>
-    </section>
-
-    <!-- ==================== SLIDE 48: ALLINEAMENTO ==================== 
-    <section class="slide" data-slide="48">
-      <div class="slide-inner">
-        <div class="label">Allineamento</div>
-        <h1>Casi studio ↔ Pilastri dichiarati</h1>
-        
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Caso studio</th>
-                <th>Pilastro collegato</th>
-                <th>Priorità</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Automazione inserimento fatture Fluentis</td>
-                <td>Digital Transformation — Fractional CTO</td>
-                <td><span class="badge badge-urgente">Urgente</span></td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Automazione workflow ripetitivi</td>
-                <td>Organizzazione e Digitalizzazione Magazzino</td>
-                <td><span class="badge badge-urgente">Urgente</span></td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Copilot documentale</td>
-                <td>Digital Transformation — Fractional CTO</td>
-                <td><span class="badge badge-urgente">Urgente</span></td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>Integrazione dati</td>
-                <td>Organizzazione e Digitalizzazione Magazzino</td>
-                <td><span class="badge badge-urgente">Urgente</span></td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>Assistente AI richieste clienti</td>
-                <td>AI Adoption</td>
-                <td><span class="badge badge-urgente">Urgente</span></td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>Gestione ordini e magazzino assistita</td>
-                <td>Organizzazione e Digitalizzazione Magazzino</td>
-                <td><span class="badge badge-urgente">Urgente</span></td>
-              </tr>
-              <tr>
-                <td>7</td>
-                <td>Generazione assistita preventivi</td>
-                <td>Preventivazione / Vendite</td>
-                <td><span class="badge badge-alta">Alta</span></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==================== SLIDE 49: INTERVISTE ==================== 
-    <section class="slide" data-slide="49">
-      <div class="slide-inner">
-        <div class="label">Evidenze</div>
-        <h1>Voci dalle interviste</h1>
-        
-        <div class="quote">
-          «Circa il 40% del tempo è dedicato ad attività core. Il restante 60% è occupato da attività amministrative e ripetitive: gestione email, compilazione schede di pallettizzazione, inserimento ordini.»
-          <cite>— Roberta Magnanti, Responsabile Vendite</cite>
-        </div>
-
-        <div class="quote mt-12">
-          «La parte più lunga e manuale è andare in magazzino, cercare la merce e contare le quantità. Poi c’è il doppio lavoro di trascrizione (carta → Excel → Fluentis).»
-          <cite>— Giuseppe Giannini, Tecnico di produzione</cite>
-        </div>
-
-        <div class="quote mt-12">
-          «Il successo di un pilot lo definirei in base al miglioramento delle condizioni lavorative e ad un aumento dell’efficienza dei dipendenti. Ore risparmiate grazie all’introduzione dell’intelligenza artificiale.»
-          <cite>— Claudio Papa, Amministratore Unico</cite>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==================== SLIDE 50: INTERVISTE 2 ==================== 
-    <section class="slide" data-slide="50">
-      <div class="slide-inner">
-        <div class="label">Evidenze</div>
-        <h1>Desiderata operative</h1>
-        
-        <div class="card-grid cols-2">
-          <div class="card">
-            <h3>Giuseppe (Produzione)</h3>
-            <p class="text-muted" style="font-size:0.85rem;">«Un magazzino mappato digitalmente + un assistente AI (anche vocale) che mi dica in tempo reale disponibilità, movimenti e che mandi alert quando le materie prime stanno per finire.»</p>
-          </div>
-          <div class="card">
-            <h3>Roberta (Vendite)</h3>
-            <p class="text-muted" style="font-size:0.85rem;">«Mi fiderei se i dati rimanessero all’interno dei nostri sistemi, archivi, server e fossero protetti.»</p>
-          </div>
-        </div>
-
-        <div class="card mt-12">
-          <h3>Claudio Papa — Obiettivi 2026</h3>
-          <ul class="clean">
-            <li>Fatturato 4 milioni di euro</li>
-            <li>Almeno una linea di produzione automatica</li>
-            <li>Introdurre l’AI in tutti i processi</li>
-            <li>Nuova strategia di marketing digitale (sito, e-commerce, social, AR, percorsi educativi)</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==================== SLIDE 51: RISCHI DETTAGLIO ==================== 
-    <section class="slide" data-slide="51">
-      <div class="slide-inner">
-        <div class="label">Compliance</div>
-        <h1>Risk model v2 — Controlli CTO</h1>
-        
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Area</th>
-                <th>Residual</th>
-                <th>Controlli principali</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Dati personali</td>
-                <td><span class="badge badge-media">MEDIUM</span></td>
-                <td>DPA, no-training su dati cliente, registro trattamenti</td>
-              </tr>
-              <tr>
-                <td>Dati sensibili / finanziari</td>
-                <td><span class="badge badge-urgente">HIGH</span></td>
-                <td>DPIA, minimizzazione, access control, human review</td>
-              </tr>
-              <tr>
-                <td>Decisioni automatizzate</td>
-                <td><span class="badge badge-urgente">HIGH</span></td>
-                <td>Human-in-the-loop, trasparenza, log decisioni</td>
-              </tr>
-              <tr>
-                <td>Policy interna AI</td>
-                <td><span class="badge badge-urgente">HIGH</span></td>
-                <td>Policy AI, registro strumenti, regole su prompt</td>
-              </tr>
-              <tr>
-                <td>Fornitori terzi</td>
-                <td><span class="badge badge-media">MEDIUM</span></td>
-                <td>DPA, data retention, localizzazione dati UE</td>
-              </tr>
-              <tr>
-                <td>Output critici</td>
-                <td><span class="badge badge-media">MEDIUM</span></td>
-                <td>Quality check, formazione utenti, log</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <p class="slide-note">Questa sezione non costituisce parere legale né sostituisce una DPIA formale.</p>
-      </div>
-    </section>
-
-    <!-- ==================== SLIDE 52: ROADMAP DETTAGLIO ==================== 
-    <section class="slide" data-slide="52">
-      <div class="slide-inner">
-        <div class="label">Roadmap</div>
-        <h1>Fase 0–30 — Kickoff e pilot</h1>
+        <div class="label">Pilastro N° 03 · Soluzione</div>
+        <h1>Marketing + Fractional Chief Marketing Officer (12 - 24 mesi)</h1>
         
         <div class="card">
-          <h3>Titolo fase</h3>
-          <p>Kickoff e pilot su Copilot documentale e knowledge assistant</p>
+          <p style="font-size:1.0rem;"></p><strong>Direttore Marketing part-time (2/3 giorni a settimana - 400 ore annuali). </strong></p>
+          <p> Porta leadership strategica senza un’assunzione full-time.</p>
+          <br>
+          <p>Il Fractional CMO è un consulente esterno che fornisce la leadership strategica per il marketing dell'azienda.</p>
+          <br>
+          <p>Il Fractional CMO non sostituisce le agenzie di marketing: le dirige, le controlla e le rende efficaci.</p>
+          <br>
+          <p>Insieme al Fractional CTO è una figura indispensabile per la crescita dell'azienda.</p>
         </div>
 
-        <div class="card-grid cols-2" style="margin-top:12px;">
+        <div class="card-grid cols-3" style="margin-top:12px;">
           <div class="card">
-            <h3>Exit criteria</h3>
-            <ul class="clean">
-              <li>Owner operativo assegnato e disponibile</li>
-              <li>Pilot funzionante con human review</li>
-              <li>Baseline KPI congelata</li>
-              <li>Valutazione DPIA avviata</li>
-            </ul>
+            <h3>Strategia</h3>
+            <p>Target, messaggi chiave, proposta di valore, posizionamento vs competitor.</p>
           </div>
           <div class="card">
-            <h3>RACI</h3>
-            <p><strong>R</strong> Operations Lead<br>
-            <strong>A</strong> Sponsor / CTO<br>
-            <strong>C</strong> Operativi + IT<br>
-            <strong>I</strong> Management</p>
-            <p class="mt-8"><strong>Budget hint:</strong> 20–35% del budget totale sul pilot</p>
+            <h3>Presenza digitale</h3>
+            <p>Rinnovo sito + e-commerce, conformità GDPR, SEO base, contenuti prioritari.</p>
           </div>
+          <div class="card">
+            <h3>Lead generation</h3>
+            <p>Sistema misurabile (sito, campagne, social media, email) allineato alle vendite.</p>
+          </div>
+        </div>s
+
+        <div class="kpi-row" style="margin-top:14px;">
+          <div class="card metric"><div class="value">€ 67.200</div><div class="label-sm">Investimento 1° anno</div></div>
+          <div class="card metric"><div class="value pos">€ 120.000</div><div class="label-sm">Benefici 1° anno</div></div>
+          <div class="card metric"><div class="value pos">€ 56.400</div><div class="label-sm">Investimento 2° anno</div></div>
+          <div class="card metric"><div class="value pos">€ 150.000</div><div class="label-sm">Benefici 2° anno</div></div>
         </div>
       </div>
     </section>
 
-    <!-- ==================== SLIDE 53: ROADMAP 30-60 ==================== 
-    <section class="slide" data-slide="53">
-      <div class="slide-inner">
-        <div class="label">Roadmap</div>
-        <h1>Fase 30–60 — Integrazione e quality loop</h1>
-        
-        <div class="card-grid cols-2">
-          <div class="card">
-            <h3>Obiettivo</h3>
-            <p>Integrare il workflow nel lavoro reale e chiudere il loop qualità con feedback misurabili. Target: errori operativi −25%.</p>
-          </div>
-          <div class="card">
-            <h3>Cosa fare</h3>
-            <ul class="clean">
-              <li>Connessione strumenti reali</li>
-              <li>Test su casi reali</li>
-              <li>Quality check e tuning</li>
-              <li>Verifica trattamento dati sensibili</li>
-            </ul>
-          </div>
-        </div>
+ <!-- ==================== SLIDE 37: CMO - COSTI BENEFICI ==================== -->
+ <section class="slide" data-slide="37">
+  <div class="slide-inner">
+    <div class="label">Pilastro N° 03 · Priorità Alta</div>
+    <h1>Marketing + CMO - Costi e benefici</h1>
 
-        <div class="alert-box mt-12">
-          <strong>Go/No-go:</strong> gestione dati sensibili non conforme senza permessi definiti → stop.
-        </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Investimento iniziale</th>
+            <th class="num">Primo Anno</th>
+            <th class="num">Secondo Anno</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Assunzione Fractional CMO</td>
+            <td class="num">€ 30.000</td>
+            <td class="num">€ 30.000</td>
+          </tr>
+          <tr>
+            <td>Nuovo sito web + e-commerce</td>
+            <td class="num">€ 10.000</td>
+            <td class="num">€ 1.200</td>
+          </tr>
+          <tr>
+            <td>Privacy Policy + Cookie Policy</td>
+            <td class="num">€ 1.200</td>
+            <td class="num">€ 1.200</td>
+          </tr>
+        </tr>
+
+          <tr>
+            <td>Fractional Social Media Strategist</td>
+            <td class="num">€ 3.000</td>
+            <td class="num">€ 3.000</td>
+          </tr>
+          <tr>
+            <td>AI Social Media Manager</td>
+            <td class="num">€ 3.000</td>
+            <td class="num">€ 3.000</td>
+          </tr>
+          <tr>
+            <td>Paid Ads su Google, Tik Tok, Instagram etc.</td>
+            <td class="num">€ 12.000</td>
+            <td class="num">€ 18.000</td>
+          </tr>
+          <tr>
+            <td>Luxury Almonds Strategy</td>
+            <td class="num">€ 8.000</td>
+            <td class="num">€ 0</td>
+          </tr>
+          <tr>
+            <td style="font-size:1.3rem;"> Totale investimenti</td>
+            <td style="font-size:1.3rem;" class="num"><strong>€ 67.200</strong></td>
+            <td style="font-size:1.3rem;" class="num"><strong>€ 56.400</strong></td>
+          </tr>
+          </tbody>
+        </table>
       </div>
+
+      <div class="table-wrap"> 
+        <table>
+          <thead>
+            <tr>
+              <th>Vantaggi economici</th>
+              <th class="num">Primo Anno</th>
+              <th class="num">Secondo Anno</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Sanzioni evitate (AI Act, Privacy, GDPR, NIS2, etc.)</td>
+            <td class="num pos">€ 40.000</td>
+            <td class="num pos">€ 40.000</td>
+          </tr>
+          <tr>
+            <td>Vendite Luxury Almonds (offline + online)</td>
+            <td class="num pos">€ 20.000</td>
+            <td class="num pos">€ 30.000</td>
+          </tr>
+          <tr>
+            <td>Vendite Italia in guscio ed altri prodotti</td>
+            <td class="num pos">€ 30.000</td>
+            <td class="num pos">€ 50.000</td>
+          </tr>
+          <tr>
+            <td>Rafforzamento brand</td>
+            <td class="num pos">€ 30.000</td>
+            <td class="num pos">€ 30.000</td>
+          </tr>
+          <tr>
+            <td style="font-size:1.3rem;"> <strong>Totale vantaggi</strong></td>
+            <td style="font-size:1.3rem;" class="num pos"><strong>€ 120.000</strong></td>
+            <td style="font-size:1.3rem;" class="num pos"><strong>€ 150.000</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      
+
+    </div>
+    </div>
     </section>
 
-    <!-- ==================== SLIDE 54: ROADMAP 60-90 ==================== 
-    <section class="slide" data-slide="54">
-      <div class="slide-inner">
-        <div class="label">Roadmap</div>
-        <h1>Fase 60–90 — Governance e scaling</h1>
-        
-        <div class="card-grid cols-2">
-          <div class="card">
-            <h3>Obiettivo</h3>
-            <p>Standardizzare governance, training e piano di estensione ai "casi studio" successivi (fatture, workflow magazzino).</p>
-          </div>
-          <div class="card">
-            <h3>Exit criteria</h3>
-            <ul class="clean">
-              <li>Ore risparmiate/mese misurate</li>
-              <li>Compliance checklist attiva</li>
-              <li>Policy, training e piano scaling approvati</li>
-            </ul>
-          </div>
-        </div>
+  
 
-        <div class="hl-box mt-12">
-          <p><strong>Rischio da presidiare:</strong> scope creep senza priorità business. Mantenere focus sui "casi studio" ad alto ROI e alta readiness.</p>
-        </div>
-      </div>
-    </section>
-
-    <-- ==================== SLIDE 55: SYSTEMS ==================== 
-    <section class="slide" data-slide="55">
-      <div class="slide-inner">
-        <div class="label">Inventory</div>
-        <h1>Systems & Data Inventory</h1>
-        
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Sistema</th>
-                <th>Categoria</th>
-                <th>API</th>
-                <th>PII</th>
-                <th>Qualità</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Fluentis</td>
-                <td>ERP</td>
-                <td>Sì</td>
-                <td>Sì</td>
-                <td>3/5</td>
-              </tr>
-              <tr>
-                <td>Excel</td>
-                <td>Files</td>
-                <td>Sì</td>
-                <td>Sì</td>
-                <td>2/5</td>
-              </tr>
-              <tr>
-                <td>Dropbox</td>
-                <td>Files</td>
-                <td>No</td>
-                <td>Sì</td>
-                <td>3/5</td>
-              </tr>
-              <tr>
-                <td>WhatsApp</td>
-                <td>Other</td>
-                <td>Sì</td>
-                <td>Sì</td>
-                <td>3/5</td>
-              </tr>
-              <tr>
-                <td>Gmail</td>
-                <td>Email</td>
-                <td>No</td>
-                <td>Sì</td>
-                <td>3/5</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <p class="slide-note mt-8">La qualità dati di Excel (2/5) è un rischio sistemico per qualsiasi automazione. La digitalizzazione del magazzino è il prerequisito.</p>
-      </div>
-    </section>
-
-    <!-- ==================== SLIDE 56: ASSUMPTIONS ==================== 
-    <section class="slide" data-slide="56">
-      <div class="slide-inner">
-        <div class="label">Trasparenza</div>
-        <h1>Assumptions log</h1>
-        
-        <div class="card">
-          <ul class="clean">
-            <li><strong>[MEDIUM]</strong> Le ore settimanali e i costi orari dichiarati nel questionario sono rappresentativi della media annuale.</li>
-            <li><strong>[MEDIUM]</strong> L'indice di automatizzazione è stimato da ripetitività / pain / desiderio di automazione e dal catalogo "casi studio".</li>
-            <li><strong>[LOW]</strong> Costi di implementazione e software mensili provengono dai template catalogo, non da preventivi fornitori.</li>
-            <li><strong>[MEDIUM]</strong> Readiness digitale/AI derivata dalle dimensioni tooling / data / integrazioni / skills / governance.</li>
-            <li><strong>[HIGH]</strong> La checklist rischi supporta decisioni CTO ma non sostituisce parere legale o DPIA formale.</li>
-          </ul>
-        </div>
-
-        <div class="alert-box mt-12">
-          Tutte le stime (ROI, risparmi, payback, costi) sono <strong>indicative</strong>. Vanno validate con dati contabili reali e con preventivi di fornitori prima di qualsiasi impegno di investimento.
-        </div>
-      </div>
-    </section>
-
-    <!-- ==================== SLIDE 57: TOTALI FINALI ==================== 
-    <section class="slide" data-slide="57">
-      <div class="slide-inner">
-        <div class="label">Sintesi numerica</div>
-        <h1>Quadro complessivo per i Soci</h1>
-        
-        <div class="kpi-row">
-          <div class="card metric">
-            <div class="value">€ 225.746</div>
-            <div class="label-sm">Risparmio base dei "casi studio" / anno</div>
-          </div>
-          <div class="card metric">
-            <div class="value">€ 338.100</div>
-            <div class="label-sm">Investimento Pilastri Y1</div>
-          </div>
-          <div class="card metric">
-            <div class="value pos">€ 1.206.740</div>
-            <div class="label-sm">Vantaggi Pilastri (incl. rischi)</div>
-          </div>
-        </div>
-
-        <div class="card mt-12">
-          <h3>Lettura corretta dei numeri</h3>
-          <p>I vantaggi degli Pilastri (magazzino, CTO, marketing, AI) includono rischi evitati e non vanno sommati ai € 900.540 dei 9 processi: l’AI Adoption (€ 666.040) riprende i processi non coperti dal magazzino. I risparmi dei 7 "casi studio" (€ 225.746) sono un sottoinsieme operativo più stretto. I "casi studio" danno quick win misurabili; gli Pilastri danno trasformazione strutturale.</p>
-        </div>
-      </div>
-    </section>
-
-    <-- ==================== SLIDE 58: RACCOMANDAZIONE FINALE ==================== -->
+    <!-- ==================== SLIDE 58: RACCOMANDAZIONE FINALE ==================== -->
     <section class="slide" data-slide="58">
       <div class="slide-inner">
         <div class="label">Decisione</div>
@@ -2892,8 +2237,8 @@
       </div>
     </section>
 
-    <!-- ==================== SLIDE 59: NEXT STEPS ==================== -->
-    <section class="slide" data-slide="59">
+    <!-- ==================== SLIDE 38: NEXT STEPS ==================== -->
+    <section class="slide" data-slide="38">
       <div class="slide-inner">
         <div class="label">Prossimi passi</div>
         <h1>Cosa chiedere al prossimo workshop</h1>
@@ -2921,15 +2266,18 @@
       </div>
     </section>
 
-    <!-- ==================== SLIDE 60: DISCLAIMER ==================== -->
-    <section class="slide" data-slide="60">
+    <!-- ==================== SLIDE 39: DISCLAIMER ==================== -->
+    <section class="slide" data-slide="39">
       <div class="slide-inner">
         <div class="label">Trasparenza</div>
         <h1>Disclaimer</h1>
         
         <div class="card">
-          <p>Questo documento è un <strong>audit opportunità AI / decision pack</strong> basato su questionario, interviste e matching a catalogo "casi studio". Le stime (ROI, risparmi, payback, costi) sono <strong>indicative</strong>. La sezione compliance e AI Act è orientativa e <strong>non sostituisce</strong> consulenza legale, DPIA formale o due diligence.</p>
-          <p class="mt-12">Fabio B. Forgione e Piotar Boa non sono responsabili per decisioni prese unicamente sulla base di questo documento. Ogni investimento deve essere preceduto da validazione contabile, preventivi di fornitori e, dove richiesto, parere legale.</p>
+          <p>Questo documento è un <strong>audit opportunità AI / decision pack</strong> basato su questionario, interviste e matching a catalogo "casi studio".</p>
+            <p> Le stime (ROI, risparmi, payback, costi) sono <strong>indicative</strong>. 
+            <p class="mt-12"><strong></strong>La sezione compliance e AI Act è orientativa e <strong>non sostituisce</strong> consulenza legale, DPIA formale o due diligence.</strong></p>
+          <p class="mt-12">Fabio B. Forgione e Piotar Boa non sono responsabili per decisioni prese unicamente sulla base di questo documento. </p>
+          <p><strong>Ogni investimento deve essere preceduto da validazione contabile, preventivi di fornitori e, dove richiesto, parere legale.</strong></p>
         </div>
 
         <div class="hl-box mt-12 text-center">
@@ -2938,18 +2286,126 @@
       </div>
     </section>
 
-    <!-- ==================== SLIDE 61: CHIUSURA ==================== -->
-    <section class="slide cover" data-slide="61">
+    <!-- ==================== SLIDE 40: ASSUMPTIONS ==================== -->
+<section class="slide" data-slide="40">
+  <div class="slide-inner">
+    <div class="label">Trasparenza</div>
+    <h1>Assumptions — parametri usati per i calcoli</h1>
+    <p class="subtitle">I valori del Decision Pack derivano da queste ipotesi. Sono stime indicative, da validare in sede contabile prima di qualsiasi investimento.</p>
+
+    <div class="kpi-row">
+      <div class="card metric">
+        <div class="value">46</div>
+        <div class="label-sm">Settimane / anno<br>(non 52: ferie e chiusure)</div>
+      </div>
+      <div class="card metric">
+        <div class="value">€ 30</div>
+        <div class="label-sm">Costo orario medio<br>operativo / amm. / vendite</div>
+      </div>
+      <div class="card metric">
+        <div class="value">€ 50</div>
+        <div class="label-sm">Valore orario<br>Amministratore Unico</div>
+      </div>
+      <div class="card metric">
+        <div class="value">± 30%</div>
+        <div class="label-sm">Banda Min / Max<br>sulla stima base</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="card">
+        <h3>Formule</h3>
+        <ul class="clean">
+          <li>Ore recuperate / anno = ore / settimana × 46</li>
+          <li>Beneficio ore = ore recuperate × costo orario</li>
+          <li>Totale processo = beneficio ore + rischio/perdita evitata</li>
+          <li>Le voci con (*) non si sommano nel totale processi: sono già incluse nel Magazzino Intelligente</li>
+          <li>Min = Base × 0,70 · Max = Base × 1,30</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Fonti e limiti</h3>
+        <ul class="clean">
+          <li>Ore, pain point e flussi: questionario + interviste interne</li>
+          <li>Rischi / perdite / sanzioni: stime prudenziali dichiarate, non da bilancio certificato</li>
+          <li>Investimenti software e servizi: listini e template di mercato, non preventivi firmati</li>
+          <li>Payback: anche considerando solo il 40% dei vantaggi dichiarati</li>
+          <li>Anno di riferimento: 2026 (agosto)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Parametro</th>
+            <th>Valore usato nel modello</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Periodo di analisi</td>
+            <td>46 settimane lavorative</td>
+          </tr>
+          <tr>
+            <td>Costo orario standard</td>
+            <td>€ 30,00 (tutti i processi tranne AU)</td>
+          </tr>
+          <tr>
+            <td>Costo orario AU</td>
+            <td>€ 50,00 (triage email Amministratore Unico)</td>
+          </tr>
+          <tr>
+            <td>Due famiglie di totali (non sommare tra loro)</td>
+            <td>9 processi: € 344.440 / anno · 3 Pilastri 1° anno: € 559.440</td>
+          </tr>
+          <tr>
+            <td>Lettura dei 3 Pilastri vs processi</td>
+            <td>I pilastri includono i processi mappati + extra CTO (cyber, Company Brain, prezzi, fornitori) + CMO</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="alert-box">
+      <strong>Regola di lettura:</strong> non sommare i € 344.440 dei 9 processi ai € 559.440 dei 3 Pilastri. Il secondo totale già contiene il primo, più i vantaggi di governance IT e marketing.
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ==================== SLIDE 41: CHIUSURA ==================== -->
+    <section class="slide cover" data-slide="41">
       <div class="slide-inner" style="align-items:center;">
         <img class="logo-cover" src="https://media.aimigo.cloud/gallery-uploads/e0f87ee8-316f-44f6-bd99-f58c5b65b188/images/9f14ad78-c9c3-43ab-9587-06f2b5100940.png" alt="Nutfruit Italia">
         <div class="label" style="color:var(--accent);">Fine del Decision Pack</div>
         <h1>Grazie</h1>
         <div class="accent-line"></div>
-        <p class="subtitle" style="max-width:520px;">
+        <p class="subtitle" style="max-width:860px;">
           Per approfondimenti, workshop operativo o proposta commerciale dettagliata:<br><br>
-          <strong>Fabio B. Forgione</strong><br>
-          AI Architect · Piotar Boa<br>
+          <strong>Fabio B. Forgione (Piotar Boa)</strong><br>
+          <br>
           staff@piotarboa.com
+
         </p>
         <div class="meta" style="margin-top:40px;">
           Nuftruit Italia — AI Opportunity Audit · Agosto 2026
@@ -3068,7 +2524,7 @@
               labels: ['Min (−30%)', 'Base', 'Max (+30%)'],
               datasets: [{
                 label: 'Totale Vantaggi/Anno (€)',
-                data: [630378, 900540, 1170702],
+                data: [391608, 559440, 727272],
                 backgroundColor: ['#a8c5c5', '#0f4c4c', '#c9a227'],
                 borderRadius: 8,
                 barThickness: 56
@@ -3106,29 +2562,29 @@
           chartInstances['invest'] = new Chart(ctx, {
             type: 'bar',
             data: {
-              labels: ['Magazzino Intelligente', 'Fractional CTO', 'Marketing CMO', 'AI Adoption'],
+              labels: ['Magazzino Intelligente', 'AI Adoption + Fractional CTO', 'Marketing aziendale + Fractional CMO'],
               datasets: [
                 {
                   label: 'Investimento Primo anno (€)',
-                  data: [82500, 78000, 117200, 60400],
+                  data: [82500, 158400, 67200],
                   backgroundColor: '#0f4c4c',
                   borderRadius: 6  
                 },
                 {
                   label: 'Vantaggi Primo anno (€)',
-                  data: [120700, 270000, 150000, 666040],
+                  data: [134500, 304940, 120000],
                   backgroundColor: '#c9a227',
                   borderRadius: 6
                 },
                 {
                   label: 'Investimento Secondo anno (€)',
-                  data: [55000, 78000, 88400, 36000],
+                  data: [55000, 134000, 56400],
                   backgroundColor: '#3a8d8d',
                   borderRadius: 6
                 },
                 {
                   label: 'Vantaggi Secondo anno (€)',
-                  data: [220700, 410000, 230000, 666040],
+                  data: [184500, 334940, 150000],
                   backgroundColor: '#f2c253', //
                   borderRadius: 6
                 }
